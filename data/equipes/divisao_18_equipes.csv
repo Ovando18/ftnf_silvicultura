@@ -1,0 +1,336 @@
+﻿Equipe;Nº Equipe;Município da Equipe;Ordem de Visita;Total da Equipe;ID SilviRadar;Propriedade / Fazenda;Latitude (°);Longitude (°);Dist. da anterior (km, linha reta);Município;Produtor / Detentor;Porte;Área Efetiva Plantada (ha);Situação IBAMA Consolidada;Embargo IBAMA
+Equipe 01;1;Três Lagoas;1;17;SR-01202;Fazenda Boa Vista;-20.840223;-51.729844;;Três Lagoas;Sete Copas Florestal Ltda;Grande (> 1.000 ha);1828.2;Com Pendência Cadastral;Nada Consta
+Equipe 01;1;Três Lagoas;2;17;SR-00900;Fazenda Palmeiras II;-20.834747;-51.745321;1.7;Três Lagoas;Gameleira Reflorestadora S.A.;Grande (> 1.000 ha);4102.2;Regular;Nada Consta
+Equipe 01;1;Três Lagoas;3;17;SR-00833;Fazenda Aroeira III;-20.826163;-51.750652;1.1;Três Lagoas;Mata Nativa Agropecuária e Florestal Ltda;Grande (> 1.000 ha);6571.4;Regular;Nada Consta
+Equipe 01;1;Três Lagoas;4;17;SR-00383;Fazenda Primavera;-20.806869;-51.819818;7.5;Três Lagoas;Vinhático Agropecuária e Florestal Ltda;Grande (> 1.000 ha);1088.2;Regular;Nada Consta
+Equipe 01;1;Três Lagoas;5;17;SR-01192;Fazenda Varjão VI;-20.82803;-51.837962;3.0;Três Lagoas;Ricardo Mendes Teixeira;Médio (100–1.000 ha);331.8;Regular;Nada Consta
+Equipe 01;1;Três Lagoas;6;17;SR-00873;Fazenda Lagoa Dourada II;-20.80104;-51.866157;4.2;Três Lagoas;Rodrigo Pereira Martins;Médio (100–1.000 ha);725.8;Com Pendência Cadastral;Nada Consta
+Equipe 01;1;Três Lagoas;7;17;SR-01247;Fazenda Santa Rita;-20.779751;-51.917674;5.9;Três Lagoas;Sete Copas Empreendimentos Florestais Ltda;Médio (100–1.000 ha);265.5;Regular;Nada Consta
+Equipe 01;1;Três Lagoas;8;17;SR-00386;Fazenda Aroeira;-20.765409;-51.917608;1.6;Três Lagoas;João Martins Silva;Médio (100–1.000 ha);966.2;Com Pendência Cadastral;Nada Consta
+Equipe 01;1;Três Lagoas;9;17;SR-01281;Fazenda Estância Nova;-20.709437;-51.901057;6.5;Três Lagoas;Pioneira Agropecuária e Florestal Ltda;Grande (> 1.000 ha);1709.4;Regular;Nada Consta
+Equipe 01;1;Três Lagoas;10;17;SR-01182;Fazenda Ouro Verde;-20.731324;-51.891288;2.6;Três Lagoas;Vinhático Empreendimentos Florestais Ltda;Grande (> 1.000 ha);1786.0;Regular;Nada Consta
+Equipe 01;1;Três Lagoas;11;17;SR-01265;Fazenda Bom Jardim II;-20.749866;-51.85356;4.4;Três Lagoas;Rio Claro Bioenergia Florestal Ltda;Médio (100–1.000 ha);737.2;Regular;Nada Consta
+Equipe 01;1;Três Lagoas;12;17;SR-00935;Fazenda Buriti II;-20.771046;-51.793951;6.6;Três Lagoas;Pindaíba Agropecuária e Florestal Ltda;Grande (> 1.000 ha);2161.4;Regular;Nada Consta
+Equipe 01;1;Três Lagoas;13;17;SR-01031;Fazenda São João III;-20.718746;-51.773532;6.2;Três Lagoas;Nova Aurora Reflorestadora S.A.;Médio (100–1.000 ha);813.2;Regular;Nada Consta
+Equipe 01;1;Três Lagoas;14;17;SR-00414;Fazenda São João II;-20.726021;-51.764593;1.2;Três Lagoas;José Nascimento Nascimento;Médio (100–1.000 ha);549.9;Regular;Nada Consta
+Equipe 01;1;Três Lagoas;15;17;SR-00881;Fazenda Palmeiras;-20.717641;-51.724254;4.3;Três Lagoas;Vinícius Moura Souza;Pequeno (≤ 100 ha);45.7;Regular;Nada Consta
+Equipe 01;1;Três Lagoas;16;17;SR-00370;Fazenda Rio Verde;-20.944882;-51.667827;25.9;Três Lagoas;Pioneira Agropecuária e Florestal Ltda;Médio (100–1.000 ha);231.0;Regular;Nada Consta
+Equipe 01;1;Três Lagoas;17;17;SR-00929;Fazenda Recanto II;-20.966243;-51.778671;11.8;Três Lagoas;Eduardo Silva Ribeiro;Médio (100–1.000 ha);672.3;Regular;Nada Consta
+Equipe 02;2;Três Lagoas;1;18;SR-00498;Fazenda Ipê Amarelo II;-20.71788;-51.70699;;Três Lagoas;Bosque Real Empreendimentos Florestais Ltda;Grande (> 1.000 ha);1670.5;Regular;Nada Consta
+Equipe 02;2;Três Lagoas;2;18;SR-01230;Fazenda Vale do Sucuriú IV;-20.697544;-51.710575;2.3;Três Lagoas;Gameleira Empreendimentos Florestais Ltda;Grande (> 1.000 ha);2199.2;Regular;Nada Consta
+Equipe 02;2;Três Lagoas;3;18;SR-00413;Fazenda Campina III;-20.684035;-51.707535;1.5;Três Lagoas;Paulo Freitas Rodrigues;Médio (100–1.000 ha);884.8;Regular;Nada Consta
+Equipe 02;2;Três Lagoas;4;18;SR-00447;Fazenda Campo Alegre;-20.705683;-51.727308;3.2;Três Lagoas;Chapadão Agroflorestal Ltda;Grande (> 1.000 ha);5883.9;Regular;Nada Consta
+Equipe 02;2;Três Lagoas;5;18;SR-01295;Fazenda São Bento III;-20.700991;-51.75951;3.4;Três Lagoas;Sertão Verde Silvicultura e Participações Ltda;Médio (100–1.000 ha);840.8;Regular;Nada Consta
+Equipe 02;2;Três Lagoas;6;18;SR-00234;Fazenda Vereda Grande;-20.689958;-51.785978;3.0;Três Lagoas;Helena Cavalcanti Alves;Médio (100–1.000 ha);366.4;Regular;Nada Consta
+Equipe 02;2;Três Lagoas;7;18;SR-00352;Fazenda São Bento;-20.677218;-51.827514;4.5;Três Lagoas;Nova Aurora Florestal Ltda;Grande (> 1.000 ha);2036.4;Regular;Nada Consta
+Equipe 02;2;Três Lagoas;8;18;SR-00227;Fazenda Córrego Fundo;-20.672678;-51.833533;0.8;Três Lagoas;Rodrigo Barbosa Mendes;Médio (100–1.000 ha);601.1;Regular;Nada Consta
+Equipe 02;2;Três Lagoas;9;18;SR-01047;Fazenda Capão Alto;-20.678717;-51.849522;1.8;Três Lagoas;Terra Roxa Empreendimentos Florestais Ltda;Médio (100–1.000 ha);902.6;Regular;Nada Consta
+Equipe 02;2;Três Lagoas;10;18;SR-00616;Fazenda Três Irmãos II;-20.669432;-51.850197;1.0;Três Lagoas;Luiza Costa Pereira;Médio (100–1.000 ha);256.2;Regular;Nada Consta
+Equipe 02;2;Três Lagoas;11;18;SR-01369;Fazenda Campo Alegre II;-20.664442;-51.854007;0.7;Três Lagoas;Nova Aurora Agroflorestal Ltda;Médio (100–1.000 ha);808.3;Com Pendência Cadastral;Nada Consta
+Equipe 02;2;Três Lagoas;12;18;SR-00805;Fazenda Sossego;-20.677602;-51.869564;2.2;Três Lagoas;Campos Gerais Empreendimentos Florestais Ltda;Médio (100–1.000 ha);450.9;Regular;Nada Consta
+Equipe 02;2;Três Lagoas;13;18;SR-00543;Fazenda Seriema;-20.67586;-51.886679;1.8;Três Lagoas;Simone Dias Oliveira;Médio (100–1.000 ha);104.1;Regular;Nada Consta
+Equipe 02;2;Três Lagoas;14;18;SR-00036;Fazenda Vale do Sucuriú;-20.599858;-51.839465;9.8;Três Lagoas;Angico Florestal Ltda;Grande (> 1.000 ha);7063.6;Regular;Nada Consta
+Equipe 02;2;Três Lagoas;15;18;SR-00411;Fazenda Ipê Amarelo;-20.629404;-51.778159;7.2;Três Lagoas;Serra Verde Empreendimentos Florestais Ltda;Pequeno (≤ 100 ha);89.9;Regular;Nada Consta
+Equipe 02;2;Três Lagoas;16;18;SR-00451;Fazenda Bela Vista;-20.555352;-51.695456;11.9;Três Lagoas;Rodrigo Silva Lima;Pequeno (≤ 100 ha);19.5;Com Pendência Cadastral;Nada Consta
+Equipe 02;2;Três Lagoas;17;18;SR-00203;Fazenda Campina II;-20.533961;-51.691373;2.4;Três Lagoas;Fernanda Lima Araújo;Pequeno (≤ 100 ha);17.7;Regular;Nada Consta
+Equipe 02;2;Três Lagoas;18;18;SR-00639;Fazenda Aroeira II;-20.523769;-51.634697;6.0;Três Lagoas;Sucupira Florestal Ltda;Grande (> 1.000 ha);3625.7;Regular;Nada Consta
+Equipe 03;3;Três Lagoas;1;18;SR-01399;Fazenda Dois Rios II;-20.850624;-51.875693;;Três Lagoas;Francisca Gomes Rodrigues;Médio (100–1.000 ha);966.8;Regular;Nada Consta
+Equipe 03;3;Três Lagoas;2;18;SR-00107;Fazenda Taquaral;-20.835375;-51.895774;2.7;Três Lagoas;Patrícia Almeida Almeida;Médio (100–1.000 ha);172.4;Regular;Nada Consta
+Equipe 03;3;Três Lagoas;3;18;SR-00564;Fazenda Córrego Fundo II;-20.807502;-51.939916;5.5;Três Lagoas;Bosque Real Silvicultura e Participações Ltda;Médio (100–1.000 ha);555.9;Regular;Nada Consta
+Equipe 03;3;Três Lagoas;4;18;SR-01125;Fazenda Bela Vista III;-20.848147;-51.908805;5.6;Três Lagoas;Mata Nativa Agropecuária e Florestal Ltda;Grande (> 1.000 ha);11646.7;Com Alerta de Embargo;Área Embargada
+Equipe 03;3;Três Lagoas;5;18;SR-00607;Fazenda Paraíso;-20.865686;-51.881271;3.5;Três Lagoas;Antônio Teixeira Silva;Médio (100–1.000 ha);161.5;Regular;Nada Consta
+Equipe 03;3;Três Lagoas;6;18;SR-00053;Fazenda Santo Antônio;-20.879775;-51.873035;1.8;Três Lagoas;Serra Verde Silvicultura e Participações Ltda;Grande (> 1.000 ha);6254.0;Regular;Nada Consta
+Equipe 03;3;Três Lagoas;7;18;SR-00751;Fazenda Cachoeira II;-20.88959;-51.911817;4.2;Três Lagoas;Pedro Alves Oliveira;Médio (100–1.000 ha);771.9;Regular;Nada Consta
+Equipe 03;3;Três Lagoas;8;18;SR-01359;Fazenda Paraíso III;-20.9152;-51.932726;3.6;Três Lagoas;Pedro Barros Freitas;Médio (100–1.000 ha);916.3;Regular;Nada Consta
+Equipe 03;3;Três Lagoas;9;18;SR-00254;Fazenda Cachoeira;-20.95635;-51.960375;5.4;Três Lagoas;Gameleira Florestal Ltda;Grande (> 1.000 ha);1388.5;Com Pendência Cadastral;Nada Consta
+Equipe 03;3;Três Lagoas;10;18;SR-00323;Fazenda Cabeceira do Pardo;-20.909615;-51.993211;6.2;Três Lagoas;Cambuí Bioenergia Florestal Ltda;Grande (> 1.000 ha);5047.3;Com Pendência Cadastral;Nada Consta
+Equipe 03;3;Três Lagoas;11;18;SR-01239;Fazenda Retiro III;-20.891175;-52.011282;2.8;Três Lagoas;Rafael Oliveira Teixeira;Pequeno (≤ 100 ha);74.1;Com Pendência Cadastral;Nada Consta
+Equipe 03;3;Três Lagoas;12;18;SR-00366;Fazenda Varjão III;-20.875395;-52.004858;1.9;Três Lagoas;Vale Azul Silvicultura e Participações Ltda;Pequeno (≤ 100 ha);38.0;Regular;Nada Consta
+Equipe 03;3;Três Lagoas;13;18;SR-00520;Fazenda Pequi;-20.872178;-51.98359;2.2;Três Lagoas;Vinícius Barros Pinto;Pequeno (≤ 100 ha);31.3;Com Pendência Cadastral;Nada Consta
+Equipe 03;3;Três Lagoas;14;18;SR-01205;Fazenda Serra Azul;-20.870551;-51.990875;0.8;Três Lagoas;Campos Gerais Florestal Ltda;Médio (100–1.000 ha);854.7;Regular;Nada Consta
+Equipe 03;3;Três Lagoas;15;18;SR-00750;Fazenda Bela Vista II;-20.842102;-52.031543;5.3;Três Lagoas;Vale Azul Agroflorestal Ltda;Grande (> 1.000 ha);4401.1;Regular;Nada Consta
+Equipe 03;3;Três Lagoas;16;18;SR-00791;Fazenda São Bento II;-20.931416;-52.066728;10.6;Três Lagoas;Chapadão Silvicultura e Participações Ltda;Grande (> 1.000 ha);5475.3;Regular;Nada Consta
+Equipe 03;3;Três Lagoas;17;18;SR-01298;Fazenda Pedra Branca;-21.010044;-51.994059;11.5;Três Lagoas;Terra Roxa Florestal Ltda;Grande (> 1.000 ha);1074.6;Regular;Nada Consta
+Equipe 03;3;Três Lagoas;18;18;SR-00070;Fazenda Bom Jardim;-21.07;-51.921477;10.1;Três Lagoas;Paulo Teixeira Lima;Pequeno (≤ 100 ha);22.5;Regular;Nada Consta
+Equipe 04;4;Três Lagoas;1;18;SR-00480;Fazenda Vereda Grande II;-20.723714;-51.932511;;Três Lagoas;Sete Copas Agroflorestal Ltda;Pequeno (≤ 100 ha);17.5;Regular;Nada Consta
+Equipe 04;4;Três Lagoas;2;18;SR-01033;Fazenda Taquaral III;-20.737633;-51.980487;5.2;Três Lagoas;Baru Agropecuária e Florestal Ltda;Grande (> 1.000 ha);4034.3;Regular;Nada Consta
+Equipe 04;4;Três Lagoas;3;18;SR-00335;Fazenda Três Irmãos;-20.761833;-51.969458;2.9;Três Lagoas;Carlos Campos Freitas;Pequeno (≤ 100 ha);8.5;Regular;Nada Consta
+Equipe 04;4;Três Lagoas;4;18;SR-00832;Fazenda Cachoeira IV;-20.773507;-51.976266;1.5;Três Lagoas;Jequitibá Silvicultura e Participações Ltda;Pequeno (≤ 100 ha);19.5;Regular;Nada Consta
+Equipe 04;4;Três Lagoas;5;18;SR-01113;Fazenda Retiro II;-20.767124;-51.991221;1.7;Três Lagoas;Mata Nativa Agroflorestal Ltda;Grande (> 1.000 ha);6643.5;Com Pendência Cadastral;Nada Consta
+Equipe 04;4;Três Lagoas;6;18;SR-00792;Fazenda Esperança;-20.792479;-51.990692;2.8;Três Lagoas;Beatriz Oliveira Nascimento;Médio (100–1.000 ha);343.3;Com Pendência Cadastral;Nada Consta
+Equipe 04;4;Três Lagoas;7;18;SR-00385;Fazenda Santo Antônio II;-20.79956;-51.99755;1.1;Três Lagoas;Chapadão Empreendimentos Florestais Ltda;Grande (> 1.000 ha);2473.4;Regular;Nada Consta
+Equipe 04;4;Três Lagoas;8;18;SR-01268;Fazenda Taquaral IV;-20.797275;-52.01583;1.9;Três Lagoas;Sucupira Agroflorestal Ltda;Grande (> 1.000 ha);2194.6;Com Pendência Cadastral;Nada Consta
+Equipe 04;4;Três Lagoas;9;18;SR-01054;Fazenda Vale do Sucuriú III;-20.756499;-52.0485;5.7;Três Lagoas;Simone Nascimento Castro;Pequeno (≤ 100 ha);56.5;Regular;Nada Consta
+Equipe 04;4;Três Lagoas;10;18;SR-01390;Fazenda Ipê Amarelo III;-20.782386;-52.070772;3.7;Três Lagoas;Jequitibá Agroflorestal Ltda;Grande (> 1.000 ha);8549.5;Regular;Nada Consta
+Equipe 04;4;Três Lagoas;11;18;SR-00966;Fazenda Palmeiras III;-20.75487;-52.094866;4.0;Três Lagoas;Vale Azul Agropecuária e Florestal Ltda;Médio (100–1.000 ha);947.3;Regular;Nada Consta
+Equipe 04;4;Três Lagoas;12;18;SR-01060;Fazenda Varjão V;-20.803236;-52.141289;7.2;Três Lagoas;Sete Copas Silvicultura e Participações Ltda;Médio (100–1.000 ha);313.2;Regular;Nada Consta
+Equipe 04;4;Três Lagoas;13;18;SR-01006;Fazenda Varjão IV;-20.7812;-52.137096;2.5;Três Lagoas;Terra Roxa Silvicultura e Participações Ltda;Grande (> 1.000 ha);1796.4;Regular;Nada Consta
+Equipe 04;4;Três Lagoas;14;18;SR-00125;Fazenda Taquaral II;-20.722076;-52.173159;7.6;Três Lagoas;Aline Moura Mendes;Médio (100–1.000 ha);372.6;Regular;Nada Consta
+Equipe 04;4;Três Lagoas;15;18;SR-01289;Fazenda Cervo II;-20.708129;-52.080854;9.7;Três Lagoas;Mata Nativa Empreendimentos Florestais Ltda;Grande (> 1.000 ha);6292.5;Regular;Nada Consta
+Equipe 04;4;Três Lagoas;16;18;SR-00419;Fazenda Mata Velha;-20.702625;-52.0633;1.9;Três Lagoas;Sertão Verde Bioenergia Florestal Ltda;Grande (> 1.000 ha);9943.5;Regular;Nada Consta
+Equipe 04;4;Três Lagoas;17;18;SR-00483;Fazenda Santa Clara;-20.719405;-52.044685;2.7;Três Lagoas;Mariana Cavalcanti Araújo;Pequeno (≤ 100 ha);96.8;Regular;Nada Consta
+Equipe 04;4;Três Lagoas;18;18;SR-00303;Fazenda Colina;-20.720549;-52.003675;4.3;Três Lagoas;Paulo Nascimento Pinto;Médio (100–1.000 ha);327.9;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;1;18;SR-01147;Fazenda Pequi II;-20.695511;-51.931993;;Três Lagoas;Ana Castro Freitas;Pequeno (≤ 100 ha);90.3;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;2;18;SR-00574;Fazenda Barreiro;-20.687347;-51.966327;3.7;Três Lagoas;Sucupira Agropecuária e Florestal Ltda;Grande (> 1.000 ha);6525.0;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;3;18;SR-00582;Fazenda Barreiro II;-20.683774;-52.031198;6.8;Três Lagoas;Fernanda Almeida Monteiro;Médio (100–1.000 ha);504.2;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;4;18;SR-00332;Fazenda Varjão II;-20.649798;-52.042736;4.0;Três Lagoas;Ipê Roxo Agropecuária e Florestal Ltda;Grande (> 1.000 ha);1048.4;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;5;18;SR-00118;Fazenda Vale do Sucuriú II;-20.643225;-52.02295;2.2;Três Lagoas;Nova Aurora Bioenergia Florestal Ltda;Pequeno (≤ 100 ha);42.5;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;6;18;SR-00840;Fazenda Recanto;-20.609149;-52.002955;4.3;Três Lagoas;Vinícius Barros Pinto;Médio (100–1.000 ha);706.7;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;7;18;SR-00867;Fazenda Santa Helena;-20.603516;-52.003564;0.6;Três Lagoas;Sertão Verde Agroflorestal Ltda;Grande (> 1.000 ha);9463.1;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;8;18;SR-00670;Fazenda Dois Rios;-20.582533;-52.016007;2.7;Três Lagoas;Sertão Verde Florestal Ltda;Grande (> 1.000 ha);4007.8;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;9;18;SR-00824;Fazenda Cachoeira III;-20.56504;-52.090401;8.0;Três Lagoas;Angico Bioenergia Florestal Ltda;Grande (> 1.000 ha);3030.5;Com Pendência Cadastral;Nada Consta
+Equipe 05;5;Três Lagoas;10;18;SR-00611;Fazenda Lagoa Dourada;-20.571034;-52.100726;1.3;Três Lagoas;Cerrado Verde Agropecuária e Florestal Ltda;Grande (> 1.000 ha);4330.1;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;11;18;SR-01045;Fazenda Paraíso II;-20.511256;-52.092467;6.7;Três Lagoas;Planalto Florestal Ltda;Grande (> 1.000 ha);1120.9;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;12;18;SR-00394;Fazenda São João;-20.43;-52.191612;13.7;Três Lagoas;Rio Claro Empreendimentos Florestais Ltda;Grande (> 1.000 ha);2868.6;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;13;18;SR-00614;Fazenda Cervo;-20.472153;-51.901352;30.6;Três Lagoas;Jequitibá Empreendimentos Florestais Ltda;Grande (> 1.000 ha);2618.7;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;14;18;SR-00216;Fazenda Buriti;-20.497643;-51.894881;2.9;Três Lagoas;Ipê Roxo Florestal Ltda;Grande (> 1.000 ha);1596.3;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;15;18;SR-01173;Fazenda Buriti III;-20.516633;-51.915341;3.0;Três Lagoas;Vale Azul Florestal Ltda;Médio (100–1.000 ha);392.0;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;16;18;SR-00287;Fazenda Canaã;-20.554776;-51.922787;4.3;Três Lagoas;Sete Copas Reflorestadora S.A.;Grande (> 1.000 ha);2602.9;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;17;18;SR-00727;Fazenda Pontal;-20.60133;-51.941336;5.5;Três Lagoas;Pindaíba Agropecuária e Florestal Ltda;Grande (> 1.000 ha);2121.0;Regular;Nada Consta
+Equipe 05;5;Três Lagoas;18;18;SR-00050;Fazenda Varjão;-20.645325;-51.908441;6.0;Três Lagoas;Jequitibá Empreendimentos Florestais Ltda;Grande (> 1.000 ha);8028.6;Com Pendência Cadastral;Nada Consta
+Equipe 06;6;Bataguassu;1;13;SR-00517;Fazenda Ouro Verde;-21.523268;-52.265947;;Bataguassu;Ricardo Souza Oliveira;Médio (100–1.000 ha);517.8;Com Alerta de Embargo;Área Embargada
+Equipe 06;6;Bataguassu;2;13;SR-00466;Fazenda Vereda Grande II;-21.594899;-52.288363;8.3;Bataguassu;Campos Gerais Empreendimentos Florestais Ltda;Grande (> 1.000 ha);10227.0;Com Pendência Cadastral;Nada Consta
+Equipe 06;6;Bataguassu;3;13;SR-00674;Fazenda Bom Jardim;-21.78651;-52.225181;22.3;Bataguassu;Luiza Almeida Castro;Pequeno (≤ 100 ha);49.1;Regular;Nada Consta
+Equipe 06;6;Bataguassu;4;13;SR-00256;Fazenda Dois Rios;-21.839304;-52.32146;11.5;Bataguassu;Cedro Alto Agroflorestal Ltda;Médio (100–1.000 ha);654.0;Com Pendência Cadastral;Nada Consta
+Equipe 06;6;Bataguassu;5;13;SR-01163;Fazenda Santa Clara;-21.842213;-52.45249;13.5;Bataguassu;Gameleira Reflorestadora S.A.;Grande (> 1.000 ha);9289.1;Regular;Nada Consta
+Equipe 06;6;Bataguassu;6;13;SR-00259;Fazenda Vereda Grande;-21.769824;-52.500755;9.5;Bataguassu;Ipê Roxo Florestal Ltda;Grande (> 1.000 ha);4988.4;Com Pendência Cadastral;Nada Consta
+Equipe 06;6;Bataguassu;7;13;SR-00499;Fazenda Buriti;-21.818891;-52.531193;6.3;Bataguassu;Luiza Cardoso Ribeiro;Pequeno (≤ 100 ha);23.5;Com Pendência Cadastral;Nada Consta
+Equipe 06;6;Bataguassu;8;13;SR-00154;Fazenda São Bento;-21.801006;-52.566566;4.2;Bataguassu;Raiz Forte Empreendimentos Florestais Ltda;Médio (100–1.000 ha);919.1;Regular;Nada Consta
+Equipe 06;6;Bataguassu;9;13;SR-01293;Fazenda Palmeiras;-21.772665;-52.550692;3.6;Bataguassu;Vale Azul Silvicultura e Participações Ltda;Grande (> 1.000 ha);3246.2;Regular;Nada Consta
+Equipe 06;6;Bataguassu;10;13;SR-00909;Fazenda Paraíso;-21.695082;-52.599464;10.0;Bataguassu;Ana Oliveira Barros;Médio (100–1.000 ha);315.2;Regular;Nada Consta
+Equipe 06;6;Bataguassu;11;13;SR-00220;Fazenda São Bento II;-21.688831;-52.513235;8.9;Bataguassu;Bosque Real Florestal Ltda;Grande (> 1.000 ha);3949.1;Com Pendência Cadastral;Nada Consta
+Equipe 06;6;Bataguassu;12;13;SR-00021;Fazenda Campina;-21.637571;-52.46376;7.7;Bataguassu;Pioneira Reflorestadora S.A.;Médio (100–1.000 ha);672.2;Regular;Nada Consta
+Equipe 06;6;Bataguassu;13;13;SR-00029;Fazenda Pedra Branca;-21.541721;-52.505699;11.5;Bataguassu;Planalto Bioenergia Florestal Ltda;Grande (> 1.000 ha);1589.2;Com Pendência Cadastral;Nada Consta
+Equipe 07;7;Brasilândia;1;20;SR-00854;Fazenda São Bento II;-21.198231;-51.82;;Brasilândia;Gustavo Freitas Alves;Médio (100–1.000 ha);637.5;Regular;Nada Consta
+Equipe 07;7;Brasilândia;2;20;SR-00252;Fazenda Pedra Branca;-21.176255;-51.985481;17.3;Brasilândia;Vinhático Agroflorestal Ltda;Médio (100–1.000 ha);228.7;Regular;Nada Consta
+Equipe 07;7;Brasilândia;3;20;SR-01235;Fazenda Três Irmãos II;-21.176827;-51.987168;0.2;Brasilândia;Ricardo Fernandes Oliveira;Médio (100–1.000 ha);216.4;Com Pendência Cadastral;Nada Consta
+Equipe 07;7;Brasilândia;4;20;SR-00621;Fazenda Pontal;-21.154034;-52.021424;4.4;Brasilândia;Tatiane Almeida Fernandes;Médio (100–1.000 ha);546.0;Regular;Nada Consta
+Equipe 07;7;Brasilândia;5;20;SR-00095;Fazenda São João;-21.163963;-52.05692;3.8;Brasilândia;Camila Araújo Freitas;Pequeno (≤ 100 ha);89.4;Regular;Nada Consta
+Equipe 07;7;Brasilândia;6;20;SR-01334;Fazenda Seriema II;-21.158046;-52.082025;2.7;Brasilândia;Eduardo Gomes Silva;Pequeno (≤ 100 ha);48.0;Com Pendência Cadastral;Nada Consta
+Equipe 07;7;Brasilândia;7;20;SR-00384;Fazenda Barreiro;-21.238745;-52.158971;12.0;Brasilândia;Tatiane Rodrigues Costa;Médio (100–1.000 ha);912.5;Regular;Nada Consta
+Equipe 07;7;Brasilândia;8;20;SR-01161;Fazenda Pequi II;-21.252832;-52.148979;1.9;Brasilândia;Raiz Forte Silvicultura e Participações Ltda;Grande (> 1.000 ha);1126.7;Regular;Nada Consta
+Equipe 07;7;Brasilândia;9;20;SR-00729;Fazenda Vale do Sucuriú II;-21.254762;-52.17006;2.2;Brasilândia;Tatiane Moura Ribeiro;Pequeno (≤ 100 ha);77.2;Regular;Nada Consta
+Equipe 07;7;Brasilândia;10;20;SR-00075;Fazenda Campo Alegre;-21.287142;-52.186589;4.0;Brasilândia;Rodrigo Pereira Rocha;Pequeno (≤ 100 ha);82.6;Regular;Nada Consta
+Equipe 07;7;Brasilândia;11;20;SR-00640;Fazenda Campina II;-21.312642;-52.181774;2.9;Brasilândia;Cedro Alto Agroflorestal Ltda;Pequeno (≤ 100 ha);33.0;Regular;Nada Consta
+Equipe 07;7;Brasilândia;12;20;SR-00463;Fazenda Campina;-21.378051;-52.142116;8.4;Brasilândia;Planalto Silvicultura e Participações Ltda;Grande (> 1.000 ha);1455.1;Com Pendência Cadastral;Nada Consta
+Equipe 07;7;Brasilândia;13;20;SR-00542;Fazenda Ouro Verde II;-21.432735;-52.112231;6.8;Brasilândia;Horizonte Empreendimentos Florestais Ltda;Grande (> 1.000 ha);1422.0;Regular;Nada Consta
+Equipe 07;7;Brasilândia;14;20;SR-00298;Fazenda Vereda Grande;-21.362256;-52.070203;9.0;Brasilândia;Fernanda Ribeiro Mendes;Médio (100–1.000 ha);758.2;Com Pendência Cadastral;Nada Consta
+Equipe 07;7;Brasilândia;15;20;SR-00388;Fazenda Pequi;-21.32201;-52.111436;6.2;Brasilândia;Campos Gerais Bioenergia Florestal Ltda;Grande (> 1.000 ha);7828.1;Regular;Nada Consta
+Equipe 07;7;Brasilândia;16;20;SR-00221;Fazenda Rio Verde;-21.308059;-52.096683;2.2;Brasilândia;Terra Roxa Bioenergia Florestal Ltda;Pequeno (≤ 100 ha);58.1;Regular;Nada Consta
+Equipe 07;7;Brasilândia;17;20;SR-01055;Fazenda Bom Jardim;-21.276642;-52.020675;8.6;Brasilândia;Marcos Campos Rocha;Médio (100–1.000 ha);309.4;Regular;Nada Consta
+Equipe 07;7;Brasilândia;18;20;SR-00073;Fazenda Primavera;-21.282088;-52.014321;0.9;Brasilândia;Sertão Verde Agropecuária e Florestal Ltda;Médio (100–1.000 ha);530.3;Com Pendência Cadastral;Nada Consta
+Equipe 07;7;Brasilândia;19;20;SR-00565;Fazenda Taquaral II;-21.357733;-51.987858;8.8;Brasilândia;Vale Azul Reflorestadora S.A.;Médio (100–1.000 ha);435.2;Regular;Nada Consta
+Equipe 07;7;Brasilândia;20;20;SR-00755;Fazenda Córrego Fundo;-21.416776;-51.904155;10.9;Brasilândia;Alvorada Reflorestadora S.A.;Grande (> 1.000 ha);3730.0;Regular;Nada Consta
+Equipe 08;8;Brasilândia;1;20;SR-00337;Fazenda Buriti;-21.031367;-52.141433;;Brasilândia;Ricardo Freitas Souza;Médio (100–1.000 ha);553.4;Regular;Nada Consta
+Equipe 08;8;Brasilândia;2;20;SR-01314;Fazenda Paraíso III;-21.069424;-52.180678;5.9;Brasilândia;José Pereira Monteiro;Médio (100–1.000 ha);592.2;Regular;Nada Consta
+Equipe 08;8;Brasilândia;3;20;SR-01294;Fazenda Pedra Branca III;-21.133037;-52.109682;10.2;Brasilândia;Sucupira Silvicultura e Participações Ltda;Pequeno (≤ 100 ha);68.8;Regular;Nada Consta
+Equipe 08;8;Brasilândia;4;20;SR-01026;Fazenda Taquaral III;-21.149217;-52.096104;2.3;Brasilândia;Sertão Verde Empreendimentos Florestais Ltda;Grande (> 1.000 ha);24055.9;Regular;Nada Consta
+Equipe 08;8;Brasilândia;5;20;SR-00389;Fazenda Mata Velha;-21.173045;-52.121669;3.7;Brasilândia;Fernanda Almeida Carvalho;Médio (100–1.000 ha);504.5;Regular;Nada Consta
+Equipe 08;8;Brasilândia;6;20;SR-00347;Fazenda Vereda Grande II;-21.127604;-52.188564;8.6;Brasilândia;Nova Aurora Reflorestadora S.A.;Grande (> 1.000 ha);2954.4;Regular;Nada Consta
+Equipe 08;8;Brasilândia;7;20;SR-00968;Fazenda Pontal II;-21.154277;-52.205309;3.4;Brasilândia;Francisca Silva Dias;Médio (100–1.000 ha);244.7;Regular;Nada Consta
+Equipe 08;8;Brasilândia;8;20;SR-00472;Fazenda Pedra Branca II;-21.162782;-52.194718;1.4;Brasilândia;Tatiane Ribeiro Campos;Médio (100–1.000 ha);675.3;Regular;Nada Consta
+Equipe 08;8;Brasilândia;9;20;SR-01115;Fazenda Retiro II;-21.171583;-52.172622;2.5;Brasilândia;Cedro Alto Bioenergia Florestal Ltda;Pequeno (≤ 100 ha);46.6;Regular;Nada Consta
+Equipe 08;8;Brasilândia;10;20;SR-00079;Fazenda Monte Alegre;-21.196573;-52.191939;3.4;Brasilândia;Ipê Roxo Bioenergia Florestal Ltda;Grande (> 1.000 ha);2165.4;Regular;Nada Consta
+Equipe 08;8;Brasilândia;11;20;SR-01119;Fazenda Cachoeira;-21.223689;-52.234455;5.3;Brasilândia;Bosque Real Agropecuária e Florestal Ltda;Grande (> 1.000 ha);4945.5;Regular;Nada Consta
+Equipe 08;8;Brasilândia;12;20;SR-01074;Fazenda Jatobá;-21.255351;-52.230437;3.5;Brasilândia;Aline Lima Pinto;Pequeno (≤ 100 ha);75.1;Regular;Nada Consta
+Equipe 08;8;Brasilândia;13;20;SR-00814;Fazenda Vereda Grande III;-21.234899;-52.27317;5.0;Brasilândia;Luiza Pinto Fernandes;Pequeno (≤ 100 ha);48.7;Regular;Nada Consta
+Equipe 08;8;Brasilândia;14;20;SR-00754;Fazenda Aroeira;-21.200363;-52.273151;3.8;Brasilândia;Pioneira Florestal Ltda;Grande (> 1.000 ha);7695.2;Regular;Nada Consta
+Equipe 08;8;Brasilândia;15;20;SR-00687;Fazenda Três Irmãos;-21.179208;-52.258635;2.8;Brasilândia;Pioneira Bioenergia Florestal Ltda;Pequeno (≤ 100 ha);20.0;Regular;Nada Consta
+Equipe 08;8;Brasilândia;16;20;SR-00552;Fazenda Paraíso II;-21.164906;-52.241443;2.4;Brasilândia;Pioneira Reflorestadora S.A.;Pequeno (≤ 100 ha);15.6;Regular;Nada Consta
+Equipe 08;8;Brasilândia;17;20;SR-00620;Fazenda Ipê Amarelo;-21.100366;-52.255139;7.3;Brasilândia;Rodrigo Barros Freitas;Médio (100–1.000 ha);480.5;Regular;Nada Consta
+Equipe 08;8;Brasilândia;18;20;SR-00567;Fazenda Seriema;-21.115069;-52.350761;10.1;Brasilândia;Maria Cavalcanti Araújo;Médio (100–1.000 ha);990.7;Regular;Nada Consta
+Equipe 08;8;Brasilândia;19;20;SR-00913;Fazenda Córrego Fundo II;-21.144467;-52.403657;6.4;Brasilândia;Jequitibá Florestal Ltda;Grande (> 1.000 ha);2746.0;Regular;Nada Consta
+Equipe 08;8;Brasilândia;20;20;SR-01203;Fazenda Bela Vista;-20.933;-52.316204;25.2;Brasilândia;Marcos Rodrigues Cardoso;Médio (100–1.000 ha);289.1;Regular;Nada Consta
+Equipe 09;9;Brasilândia;1;20;SR-00744;Fazenda Ouro Verde III;-21.235411;-52.313141;;Brasilândia;Aline Pinto Cavalcanti;Médio (100–1.000 ha);569.6;Regular;Nada Consta
+Equipe 09;9;Brasilândia;2;20;SR-00830;Fazenda Aroeira II;-21.244885;-52.336982;2.7;Brasilândia;Pindaíba Agroflorestal Ltda;Pequeno (≤ 100 ha);43.7;Regular;Nada Consta
+Equipe 09;9;Brasilândia;3;20;SR-00101;Fazenda Ouro Verde;-21.246216;-52.34377;0.7;Brasilândia;Sérgio Moura Silva;Médio (100–1.000 ha);788.9;Com Pendência Cadastral;Nada Consta
+Equipe 09;9;Brasilândia;4;20;SR-00169;Fazenda Primavera II;-21.242775;-52.351847;0.9;Brasilândia;Mariana Lima Monteiro;Pequeno (≤ 100 ha);49.1;Com Pendência Cadastral;Nada Consta
+Equipe 09;9;Brasilândia;5;20;SR-00398;Fazenda Capão Alto II;-21.292752;-52.334737;5.8;Brasilândia;Terra Roxa Agropecuária e Florestal Ltda;Grande (> 1.000 ha);1528.2;Regular;Nada Consta
+Equipe 09;9;Brasilândia;6;20;SR-01116;Fazenda Estância Nova;-21.324336;-52.347294;3.7;Brasilândia;Cedro Alto Silvicultura e Participações Ltda;Grande (> 1.000 ha);4374.9;Regular;Nada Consta
+Equipe 09;9;Brasilândia;7;20;SR-00456;Fazenda Taquaral;-21.315621;-52.30418;4.6;Brasilândia;Sertão Verde Florestal Ltda;Grande (> 1.000 ha);1858.0;Regular;Nada Consta
+Equipe 09;9;Brasilândia;8;20;SR-00826;Fazenda São João II;-21.325367;-52.30497;1.1;Brasilândia;Simone Dias Ribeiro;Médio (100–1.000 ha);758.5;Regular;Nada Consta
+Equipe 09;9;Brasilândia;9;20;SR-00938;Fazenda Vereda Grande IV;-21.32568;-52.290912;1.5;Brasilândia;Larissa Mendes Nascimento;Médio (100–1.000 ha);160.3;Regular;Nada Consta
+Equipe 09;9;Brasilândia;10;20;SR-00258;Fazenda Capão Alto;-21.312643;-52.284633;1.6;Brasilândia;Larissa Nascimento Pinto;Médio (100–1.000 ha);778.9;Regular;Nada Consta
+Equipe 09;9;Brasilândia;11;20;SR-00434;Fazenda Santo Antônio;-21.301722;-52.288535;1.3;Brasilândia;Rio Claro Empreendimentos Florestais Ltda;Grande (> 1.000 ha);1909.0;Regular;Nada Consta
+Equipe 09;9;Brasilândia;12;20;SR-00329;Fazenda Retiro;-21.317959;-52.266223;2.9;Brasilândia;Ipê Roxo Silvicultura e Participações Ltda;Grande (> 1.000 ha);3291.9;Regular;Nada Consta
+Equipe 09;9;Brasilândia;13;20;SR-00769;Fazenda Canaã;-21.308018;-52.244212;2.5;Brasilândia;Mata Nativa Agroflorestal Ltda;Médio (100–1.000 ha);948.0;Regular;Nada Consta
+Equipe 09;9;Brasilândia;14;20;SR-00512;Fazenda São Bento;-21.345848;-52.203967;5.9;Brasilândia;Vinhático Bioenergia Florestal Ltda;Médio (100–1.000 ha);259.6;Regular;Nada Consta
+Equipe 09;9;Brasilândia;15;20;SR-00417;Fazenda Campo Alegre II;-21.390909;-52.191793;5.2;Brasilândia;Larissa Mendes Campos;Médio (100–1.000 ha);595.1;Regular;Nada Consta
+Equipe 09;9;Brasilândia;16;20;SR-01000;Fazenda Cervo;-21.516226;-52.294926;17.6;Brasilândia;Eduardo Castro Rodrigues;Médio (100–1.000 ha);482.6;Regular;Nada Consta
+Equipe 09;9;Brasilândia;17;20;SR-01001;Fazenda Cabeceira do Pardo;-21.491785;-52.386642;9.9;Brasilândia;Nova Aurora Agroflorestal Ltda;Grande (> 1.000 ha);1317.9;Regular;Nada Consta
+Equipe 09;9;Brasilândia;18;20;SR-00144;Fazenda Paraíso;-21.469806;-52.395001;2.6;Brasilândia;Cambuí Silvicultura e Participações Ltda;Grande (> 1.000 ha);4260.0;Regular;Nada Consta
+Equipe 09;9;Brasilândia;19;20;SR-00770;Fazenda Mata Velha II;-21.320565;-52.418803;16.8;Brasilândia;Aline Cavalcanti Castro;Médio (100–1.000 ha);805.5;Com Pendência Cadastral;Nada Consta
+Equipe 09;9;Brasilândia;20;20;SR-00001;Fazenda Santa Clara;-21.319331;-52.509136;9.4;Brasilândia;Pioneira Florestal Ltda;Grande (> 1.000 ha);2826.0;Com Pendência Cadastral;Nada Consta
+Equipe 10;10;Inocência;1;16;SR-00761;Fazenda Santa Clara II;-19.918941;-51.900387;;Inocência;Ana Fernandes Campos;Médio (100–1.000 ha);331.1;Regular;Nada Consta
+Equipe 10;10;Inocência;2;16;SR-00597;Fazenda Colina;-19.820855;-51.917028;11.0;Inocência;Vinhático Agroflorestal Ltda;Pequeno (≤ 100 ha);43.3;Regular;Nada Consta
+Equipe 10;10;Inocência;3;16;SR-00704;Fazenda Capão Alto;-19.786789;-51.93992;4.5;Inocência;Ipê Roxo Agropecuária e Florestal Ltda;Grande (> 1.000 ha);13857.7;Regular;Nada Consta
+Equipe 10;10;Inocência;4;16;SR-01226;Fazenda Cervo;-19.76278;-51.937536;2.7;Inocência;Copaíba Florestal Ltda;Grande (> 1.000 ha);3737.1;Com Pendência Cadastral;Nada Consta
+Equipe 10;10;Inocência;5;16;SR-00600;Fazenda Santo Antônio II;-19.760389;-51.9314;0.7;Inocência;Cedro Alto Agroflorestal Ltda;Grande (> 1.000 ha);21112.0;Regular;Nada Consta
+Equipe 10;10;Inocência;6;16;SR-00432;Fazenda São Bento;-19.730055;-51.944183;3.6;Inocência;Ricardo Freitas Nascimento;Médio (100–1.000 ha);889.8;Com Pendência Cadastral;Nada Consta
+Equipe 10;10;Inocência;7;16;SR-00378;Fazenda Água Limpa;-19.71496;-51.95577;2.1;Inocência;Vinhático Bioenergia Florestal Ltda;Grande (> 1.000 ha);13474.4;Regular;Nada Consta
+Equipe 10;10;Inocência;8;16;SR-01038;Fazenda Cabeceira do Pardo;-19.701442;-51.95493;1.5;Inocência;Ricardo Souza Araújo;Pequeno (≤ 100 ha);8.5;Regular;Nada Consta
+Equipe 10;10;Inocência;9;16;SR-00003;Fazenda Vale do Sucuriú;-19.746681;-51.992144;6.4;Inocência;Planalto Bioenergia Florestal Ltda;Grande (> 1.000 ha);3558.0;Com Pendência Cadastral;Nada Consta
+Equipe 10;10;Inocência;10;16;SR-01040;Fazenda Campo Alegre;-19.730722;-52.028876;4.2;Inocência;Jequitibá Agroflorestal Ltda;Grande (> 1.000 ha);4086.7;Regular;Nada Consta
+Equipe 10;10;Inocência;11;16;SR-00801;Fazenda São Bento III;-19.76209;-52.036857;3.6;Inocência;Nova Aurora Agroflorestal Ltda;Grande (> 1.000 ha);3485.8;Com Pendência Cadastral;Nada Consta
+Equipe 10;10;Inocência;12;16;SR-00610;Fazenda Vale do Sucuriú III;-19.818895;-52.03652;6.3;Inocência;Rio Claro Silvicultura e Participações Ltda;Médio (100–1.000 ha);755.3;Regular;Nada Consta
+Equipe 10;10;Inocência;13;16;SR-00274;Fazenda Canaã;-19.858392;-52.058234;4.9;Inocência;Paulo Castro Lima;Pequeno (≤ 100 ha);70.1;Regular;Nada Consta
+Equipe 10;10;Inocência;14;16;SR-00128;Fazenda Pedra Branca;-19.658055;-52.148486;24.2;Inocência;Jequitibá Florestal Ltda;Médio (100–1.000 ha);329.0;Regular;Nada Consta
+Equipe 10;10;Inocência;15;16;SR-00660;Fazenda São Bento II;-19.600697;-52.132987;6.6;Inocência;Alvorada Empreendimentos Florestais Ltda;Grande (> 1.000 ha);11727.9;Regular;Nada Consta
+Equipe 10;10;Inocência;16;16;SR-00741;Fazenda Sossego;-19.640817;-52.082863;6.9;Inocência;Camila Araújo Costa;Médio (100–1.000 ha);387.7;Com Pendência Cadastral;Nada Consta
+Equipe 11;11;Inocência;1;15;SR-00310;Fazenda Santa Clara;-19.798874;-51.813906;;Inocência;Chapadão Bioenergia Florestal Ltda;Pequeno (≤ 100 ha);79.5;Regular;Nada Consta
+Equipe 11;11;Inocência;2;15;SR-00930;Fazenda Aroeira;-19.76464;-51.877466;7.7;Inocência;Beatriz Pinto Almeida;Médio (100–1.000 ha);995.5;Com Alerta de Embargo;Área Embargada
+Equipe 11;11;Inocência;3;15;SR-01346;Fazenda Varjão II;-19.68514;-51.855792;9.1;Inocência;Campos Gerais Empreendimentos Florestais Ltda;Grande (> 1.000 ha);4330.4;Regular;Nada Consta
+Equipe 11;11;Inocência;4;15;SR-00903;Fazenda Vereda Grande;-19.684614;-51.861046;0.6;Inocência;Pioneira Empreendimentos Florestais Ltda;Médio (100–1.000 ha);921.4;Regular;Nada Consta
+Equipe 11;11;Inocência;5;15;SR-01181;Fazenda Seriema;-19.719953;-51.924784;7.7;Inocência;Rio Claro Reflorestadora S.A.;Médio (100–1.000 ha);987.0;Regular;Nada Consta
+Equipe 11;11;Inocência;6;15;SR-00213;Fazenda Dois Rios;-19.701621;-51.934913;2.3;Inocência;Francisca Pereira Souza;Médio (100–1.000 ha);927.3;Com Pendência Cadastral;Nada Consta
+Equipe 11;11;Inocência;7;15;SR-00468;Fazenda Primavera;-19.670449;-51.922108;3.7;Inocência;Patrícia Barros Pereira;Médio (100–1.000 ha);331.0;Regular;Nada Consta
+Equipe 11;11;Inocência;8;15;SR-01338;Fazenda Primavera II;-19.62773;-51.972861;7.1;Inocência;Beatriz Pinto Castro;Médio (100–1.000 ha);374.7;Com Pendência Cadastral;Nada Consta
+Equipe 11;11;Inocência;9;15;SR-00325;Fazenda Vale do Sucuriú II;-19.596844;-51.969571;3.5;Inocência;Campos Gerais Florestal Ltda;Grande (> 1.000 ha);5526.7;Com Pendência Cadastral;Nada Consta
+Equipe 11;11;Inocência;10;15;SR-01304;Fazenda Canaã II;-19.556701;-51.940503;5.4;Inocência;Ipê Roxo Bioenergia Florestal Ltda;Médio (100–1.000 ha);512.4;Com Pendência Cadastral;Nada Consta
+Equipe 11;11;Inocência;11;15;SR-00195;Fazenda Santo Antônio;-19.53887;-51.927347;2.4;Inocência;Terra Roxa Reflorestadora S.A.;Grande (> 1.000 ha);1779.7;Com Pendência Cadastral;Nada Consta
+Equipe 11;11;Inocência;12;15;SR-00573;Fazenda Varjão;-19.424886;-51.78312;19.7;Inocência;Sérgio Cardoso Campos;Médio (100–1.000 ha);790.1;Regular;Nada Consta
+Equipe 11;11;Inocência;13;15;SR-00008;Fazenda Mata Velha;-19.617366;-51.823959;21.8;Inocência;Patrícia Almeida Rocha;Médio (100–1.000 ha);365.7;Com Pendência Cadastral;Nada Consta
+Equipe 11;11;Inocência;14;15;SR-00083;Fazenda Recanto;-19.655001;-51.675695;16.1;Inocência;Luiza Ribeiro Ribeiro;Médio (100–1.000 ha);294.6;Regular;Nada Consta
+Equipe 11;11;Inocência;15;15;SR-00916;Fazenda Boa Vista;-19.714122;-51.648778;7.2;Inocência;Vinícius Monteiro Ribeiro;Médio (100–1.000 ha);140.9;Regular;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;1;20;SR-01030;Fazenda Capão Alto II;-20.520317;-53.481399;;Ribas do Rio Pardo;Raiz Forte Empreendimentos Florestais Ltda;Grande (> 1.000 ha);5222.9;Com Pendência Cadastral;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;2;20;SR-00375;Fazenda Dois Rios II;-20.495113;-53.52766;5.6;Ribas do Rio Pardo;Bosque Real Florestal Ltda;Grande (> 1.000 ha);4463.0;Regular;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;3;20;SR-00184;Fazenda Sossego;-20.439131;-53.561134;7.1;Ribas do Rio Pardo;Copaíba Agroflorestal Ltda;Grande (> 1.000 ha);4827.9;Regular;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;4;20;SR-01241;Fazenda Santa Helena;-20.406531;-53.596539;5.2;Ribas do Rio Pardo;Baru Empreendimentos Florestais Ltda;Grande (> 1.000 ha);3342.4;Regular;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;5;20;SR-01146;Fazenda Barreiro III;-20.409444;-53.602188;0.7;Ribas do Rio Pardo;Baru Reflorestadora S.A.;Grande (> 1.000 ha);11851.2;Regular;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;6;20;SR-00019;Fazenda Estância Nova;-20.434997;-53.624326;3.7;Ribas do Rio Pardo;Antônio Barbosa Araújo;Médio (100–1.000 ha);333.5;Regular;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;7;20;SR-00244;Fazenda Cachoeira;-20.450169;-53.622459;1.7;Ribas do Rio Pardo;Bosque Real Silvicultura e Participações Ltda;Grande (> 1.000 ha);15945.5;Regular;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;8;20;SR-00146;Fazenda Campina;-20.49182;-53.634985;4.8;Ribas do Rio Pardo;Mariana Costa Alves;Médio (100–1.000 ha);555.6;Regular;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;9;20;SR-00673;Fazenda Vale do Sucuriú III;-20.476874;-53.702126;7.2;Ribas do Rio Pardo;Sérgio Fernandes Monteiro;Pequeno (≤ 100 ha);64.9;Regular;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;10;20;SR-00319;Fazenda Ipê Amarelo;-20.472198;-53.732987;3.3;Ribas do Rio Pardo;Angico Bioenergia Florestal Ltda;Grande (> 1.000 ha);4792.5;Com Alerta de Embargo;Área Embargada
+Equipe 12;12;Ribas do Rio Pardo;11;20;SR-00746;Fazenda Ipê Amarelo III;-20.503674;-53.726682;3.6;Ribas do Rio Pardo;José Cavalcanti Moura;Pequeno (≤ 100 ha);77.1;Regular;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;12;20;SR-01154;Fazenda Boa Vista II;-20.491957;-53.701403;2.9;Ribas do Rio Pardo;Pioneira Agroflorestal Ltda;Grande (> 1.000 ha);33103.6;Regular;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;13;20;SR-00604;Fazenda Ipê Amarelo II;-20.532877;-53.694634;4.6;Ribas do Rio Pardo;Maria Gomes Barbosa;Pequeno (≤ 100 ha);44.2;Regular;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;14;20;SR-00012;Fazenda Bela Vista;-20.545212;-53.649786;4.9;Ribas do Rio Pardo;Chapadão Silvicultura e Participações Ltda;Grande (> 1.000 ha);8515.6;Com Pendência Cadastral;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;15;20;SR-00077;Fazenda Pontal;-20.530594;-53.636872;2.1;Ribas do Rio Pardo;Francisca Silva Dias;Pequeno (≤ 100 ha);13.3;Com Alerta de Embargo;Área Embargada
+Equipe 12;12;Ribas do Rio Pardo;16;20;SR-00591;Fazenda Estância Nova III;-20.524563;-53.580308;5.9;Ribas do Rio Pardo;Sete Copas Agropecuária e Florestal Ltda;Grande (> 1.000 ha);1217.9;Regular;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;17;20;SR-00035;Fazenda Monte Alegre;-20.568351;-53.500003;9.7;Ribas do Rio Pardo;Copaíba Agroflorestal Ltda;Grande (> 1.000 ha);3935.4;Regular;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;18;20;SR-00494;Fazenda Cabeceira do Pardo;-20.58367;-53.57257;7.7;Ribas do Rio Pardo;Raiz Forte Silvicultura e Participações Ltda;Grande (> 1.000 ha);1326.8;Regular;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;19;20;SR-00248;Fazenda Taquaral II;-20.613258;-53.656803;9.4;Ribas do Rio Pardo;Copaíba Bioenergia Florestal Ltda;Grande (> 1.000 ha);9650.1;Regular;Nada Consta
+Equipe 12;12;Ribas do Rio Pardo;20;20;SR-01118;Fazenda Retiro III;-20.613321;-53.678635;2.3;Ribas do Rio Pardo;Juliana Teixeira Carvalho;Pequeno (≤ 100 ha);44.3;Regular;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;1;20;SR-00088;Fazenda Dois Rios;-20.329049;-53.543605;;Ribas do Rio Pardo;Alvorada Reflorestadora S.A.;Médio (100–1.000 ha);872.2;Regular;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;2;20;SR-01328;Fazenda Cachoeira II;-20.312802;-53.634542;9.7;Ribas do Rio Pardo;Sucupira Empreendimentos Florestais Ltda;Grande (> 1.000 ha);7750.6;Regular;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;3;20;SR-01044;Fazenda Estância Nova V;-20.341148;-53.639826;3.2;Ribas do Rio Pardo;Mata Nativa Agroflorestal Ltda;Grande (> 1.000 ha);3543.3;Regular;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;4;20;SR-00787;Fazenda Palmeiras II;-20.377956;-53.622869;4.5;Ribas do Rio Pardo;Vinhático Agroflorestal Ltda;Grande (> 1.000 ha);2376.7;Com Pendência Cadastral;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;5;20;SR-00262;Fazenda Pedra Branca II;-20.37272;-53.630838;1.0;Ribas do Rio Pardo;Baru Florestal Ltda;Grande (> 1.000 ha);5921.8;Regular;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;6;20;SR-00116;Fazenda Capão Alto;-20.374001;-53.664196;3.5;Ribas do Rio Pardo;Pedro Teixeira Nascimento;Médio (100–1.000 ha);692.6;Regular;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;7;20;SR-00109;Fazenda Pedra Branca;-20.309554;-53.680618;7.4;Ribas do Rio Pardo;Antônio Rocha Oliveira;Médio (100–1.000 ha);366.5;Regular;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;8;20;SR-00765;Fazenda Santa Rita;-20.309306;-53.716322;3.7;Ribas do Rio Pardo;Baru Reflorestadora S.A.;Grande (> 1.000 ha);3125.7;Regular;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;9;20;SR-00609;Fazenda Primavera III;-20.315843;-53.747524;3.3;Ribas do Rio Pardo;Sérgio Moura Moura;Médio (100–1.000 ha);982.4;Com Pendência Cadastral;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;10;20;SR-00306;Fazenda Campo Alegre;-20.326805;-53.75378;1.4;Ribas do Rio Pardo;Marcos Mendes Rodrigues;Médio (100–1.000 ha);262.3;Com Pendência Cadastral;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;11;20;SR-00045;Fazenda Lagoa Dourada;-20.372995;-53.771587;5.5;Ribas do Rio Pardo;Vale Azul Agropecuária e Florestal Ltda;Grande (> 1.000 ha);3838.5;Regular;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;12;20;SR-00409;Fazenda Boa Vista;-20.388427;-53.761722;2.0;Ribas do Rio Pardo;Jequitibá Empreendimentos Florestais Ltda;Grande (> 1.000 ha);3918.8;Regular;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;13;20;SR-01339;Fazenda Campina II;-20.410196;-53.74382;3.1;Ribas do Rio Pardo;Sertão Verde Agropecuária e Florestal Ltda;Médio (100–1.000 ha);483.6;Regular;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;14;20;SR-00276;Fazenda Aroeira II;-20.432048;-53.723267;3.2;Ribas do Rio Pardo;Jequitibá Agroflorestal Ltda;Grande (> 1.000 ha);8307.0;Regular;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;15;20;SR-01028;Fazenda Esperança;-20.439512;-53.697978;2.8;Ribas do Rio Pardo;Cerrado Verde Agroflorestal Ltda;Grande (> 1.000 ha);3140.0;Regular;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;16;20;SR-00838;Fazenda Três Irmãos III;-20.452677;-53.761837;6.8;Ribas do Rio Pardo;Rafael Rocha Teixeira;Médio (100–1.000 ha);176.8;Regular;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;17;20;SR-01297;Fazenda Mata Velha II;-20.389201;-53.815902;9.0;Ribas do Rio Pardo;Planalto Silvicultura e Participações Ltda;Grande (> 1.000 ha);3816.8;Regular;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;18;20;SR-00861;Fazenda Santa Rita II;-20.376853;-53.809349;1.5;Ribas do Rio Pardo;Jequitibá Agropecuária e Florestal Ltda;Médio (100–1.000 ha);411.4;Regular;Nada Consta
+Equipe 13;13;Ribas do Rio Pardo;19;20;SR-01320;Fazenda Palmeiras III;-20.243846;-53.749976;16.0;Ribas do Rio Pardo;Antônio Cardoso Barbosa;Médio (100–1.000 ha);630.3;Com Alerta de Embargo;Área Embargada
+Equipe 13;13;Ribas do Rio Pardo;20;20;SR-00270;Fazenda Estância Nova II;-20.237525;-53.595641;16.1;Ribas do Rio Pardo;Ipê Roxo Florestal Ltda;Pequeno (≤ 100 ha);87.3;Com Alerta de Embargo;Área Embargada
+Equipe 14;14;Ribas do Rio Pardo;1;21;SR-00971;Fazenda Seriema;-20.559264;-53.749081;;Ribas do Rio Pardo;Helena Pereira Cardoso;Pequeno (≤ 100 ha);8.6;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;2;21;SR-00228;Fazenda Recanto;-20.560877;-53.790795;4.3;Ribas do Rio Pardo;Copaíba Silvicultura e Participações Ltda;Grande (> 1.000 ha);4371.0;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;3;21;SR-00058;Fazenda Primavera;-20.576524;-53.797975;1.9;Ribas do Rio Pardo;Ana Freitas Ribeiro;Médio (100–1.000 ha);347.1;Com Pendência Cadastral;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;4;21;SR-00876;Fazenda Canaã II;-20.573573;-53.824215;2.8;Ribas do Rio Pardo;Sérgio Martins Souza;Médio (100–1.000 ha);979.5;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;5;21;SR-00934;Fazenda Primavera IV;-20.560506;-53.820642;1.5;Ribas do Rio Pardo;Cedro Alto Agropecuária e Florestal Ltda;Grande (> 1.000 ha);4371.9;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;6;21;SR-00980;Fazenda Pontal III;-20.535988;-53.799758;3.5;Ribas do Rio Pardo;Chapadão Florestal Ltda;Grande (> 1.000 ha);1837.4;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;7;21;SR-00889;Fazenda Santo Antônio III;-20.515706;-53.784994;2.7;Ribas do Rio Pardo;Pedro Campos Barros;Pequeno (≤ 100 ha);35.4;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;8;21;SR-00373;Fazenda Aroeira III;-20.520776;-53.758554;2.8;Ribas do Rio Pardo;Rodrigo Pinto Ribeiro;Médio (100–1.000 ha);691.2;Com Alerta de Embargo;Área Embargada
+Equipe 14;14;Ribas do Rio Pardo;9;21;SR-00706;Fazenda Barreiro II;-20.516157;-53.759529;0.5;Ribas do Rio Pardo;Mariana Souza Souza;Pequeno (≤ 100 ha);27.5;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;10;21;SR-00986;Fazenda Estância Nova IV;-20.48833;-53.786373;4.2;Ribas do Rio Pardo;Sérgio Fernandes Castro;Pequeno (≤ 100 ha);17.2;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;11;21;SR-00993;Fazenda Pedra Branca III;-20.469153;-53.762887;3.2;Ribas do Rio Pardo;Sertão Verde Bioenergia Florestal Ltda;Grande (> 1.000 ha);4704.4;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;12;21;SR-01123;Fazenda Cervo;-20.463319;-53.795207;3.4;Ribas do Rio Pardo;Jequitibá Agropecuária e Florestal Ltda;Grande (> 1.000 ha);15745.0;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;13;21;SR-00479;Fazenda Rio Verde;-20.433517;-53.81896;4.1;Ribas do Rio Pardo;Planalto Reflorestadora S.A.;Grande (> 1.000 ha);1808.8;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;14;21;SR-00777;Fazenda Bom Jardim;-20.470236;-53.854144;5.5;Ribas do Rio Pardo;Horizonte Agropecuária e Florestal Ltda;Grande (> 1.000 ha);7180.4;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;15;21;SR-00313;Fazenda Serra Azul;-20.494161;-53.889197;4.5;Ribas do Rio Pardo;Juliana Moura Silva;Médio (100–1.000 ha);497.8;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;16;21;SR-00145;Fazenda São Bento;-20.594907;-53.960627;13.4;Ribas do Rio Pardo;Vinhático Florestal Ltda;Médio (100–1.000 ha);238.2;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;17;21;SR-01378;Fazenda Recanto III;-20.58171;-53.872766;9.3;Ribas do Rio Pardo;Mariana Nascimento Pinto;Pequeno (≤ 100 ha);99.5;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;18;21;SR-00142;Fazenda Retiro;-20.65296;-53.845335;8.4;Ribas do Rio Pardo;Vale Azul Bioenergia Florestal Ltda;Grande (> 1.000 ha);5237.4;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;19;21;SR-00508;Fazenda Pequi;-20.635923;-53.793034;5.8;Ribas do Rio Pardo;Ana Ribeiro Souza;Médio (100–1.000 ha);769.3;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;20;21;SR-00043;Fazenda Taquaral;-20.6751;-53.801003;4.4;Ribas do Rio Pardo;Raiz Forte Bioenergia Florestal Ltda;Grande (> 1.000 ha);4167.3;Regular;Nada Consta
+Equipe 14;14;Ribas do Rio Pardo;21;21;SR-00482;Fazenda Rio Verde II;-20.751517;-53.773569;9.0;Ribas do Rio Pardo;Serra Verde Silvicultura e Participações Ltda;Grande (> 1.000 ha);4958.3;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;1;20;SR-00165;Fazenda Barreiro;-20.415165;-53.837497;;Ribas do Rio Pardo;Rodrigo Araújo Pereira;Médio (100–1.000 ha);257.9;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;2;20;SR-00418;Fazenda Colina;-20.337651;-53.835416;8.6;Ribas do Rio Pardo;Alvorada Florestal Ltda;Pequeno (≤ 100 ha);15.7;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;3;20;SR-00628;Fazenda São Bento II;-20.29235;-53.904784;8.8;Ribas do Rio Pardo;Larissa Cardoso Souza;Médio (100–1.000 ha);290.7;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;4;20;SR-00458;Fazenda Ouro Verde;-20.243012;-53.900524;5.5;Ribas do Rio Pardo;Nova Aurora Bioenergia Florestal Ltda;Grande (> 1.000 ha);3727.3;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;5;20;SR-01199;Fazenda Pedra Branca IV;-20.240652;-53.926138;2.7;Ribas do Rio Pardo;Luiza Lima Monteiro;Médio (100–1.000 ha);660.0;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;6;20;SR-00590;Fazenda Canaã;-20.244255;-53.978459;5.5;Ribas do Rio Pardo;Pioneira Reflorestadora S.A.;Grande (> 1.000 ha);7253.4;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;7;20;SR-00338;Fazenda Santo Antônio;-20.260268;-53.956149;2.9;Ribas do Rio Pardo;Luiza Monteiro Castro;Médio (100–1.000 ha);117.0;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;8;20;SR-00240;Fazenda Aroeira;-20.27424;-53.945569;1.9;Ribas do Rio Pardo;Simone Lima Carvalho;Médio (100–1.000 ha);703.9;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;9;20;SR-00405;Fazenda Primavera II;-20.312694;-53.936401;4.4;Ribas do Rio Pardo;Ipê Roxo Agropecuária e Florestal Ltda;Grande (> 1.000 ha);1243.3;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;10;20;SR-00341;Fazenda Santo Antônio II;-20.381654;-53.867424;10.5;Ribas do Rio Pardo;Carlos Ribeiro Gomes;Pequeno (≤ 100 ha);88.1;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;11;20;SR-01342;Fazenda Paraíso;-20.405257;-53.897243;4.1;Ribas do Rio Pardo;Vinícius Martins Barbosa;Médio (100–1.000 ha);156.6;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;12;20;SR-01097;Fazenda Retiro II;-20.389478;-53.913789;2.5;Ribas do Rio Pardo;Pindaíba Florestal Ltda;Grande (> 1.000 ha);14584.2;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;13;20;SR-00369;Fazenda Pontal II;-20.396822;-53.927769;1.7;Ribas do Rio Pardo;Rio Claro Empreendimentos Florestais Ltda;Pequeno (≤ 100 ha);94.1;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;14;20;SR-00056;Fazenda Varjão;-20.401205;-53.939151;1.3;Ribas do Rio Pardo;Rodrigo Lima Teixeira;Médio (100–1.000 ha);802.9;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;15;20;SR-00562;Fazenda Palmeiras;-20.381199;-53.97771;4.6;Ribas do Rio Pardo;João Carvalho Mendes;Médio (100–1.000 ha);952.5;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;16;20;SR-00320;Fazenda Três Irmãos;-20.384567;-54.029333;5.4;Ribas do Rio Pardo;Mata Nativa Reflorestadora S.A.;Grande (> 1.000 ha);2945.3;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;17;20;SR-00617;Fazenda Três Irmãos II;-20.472235;-54.02318;9.8;Ribas do Rio Pardo;Paulo Teixeira Dias;Médio (100–1.000 ha);315.9;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;18;20;SR-00340;Fazenda Vale do Sucuriú II;-20.508402;-54.025664;4.0;Ribas do Rio Pardo;Horizonte Agropecuária e Florestal Ltda;Médio (100–1.000 ha);367.1;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;19;20;SR-00158;Fazenda São João;-20.503248;-53.985494;4.2;Ribas do Rio Pardo;Raiz Forte Agroflorestal Ltda;Médio (100–1.000 ha);586.9;Regular;Nada Consta
+Equipe 15;15;Ribas do Rio Pardo;20;20;SR-00732;Fazenda Bela Vista II;-20.505158;-53.952609;3.4;Ribas do Rio Pardo;Cambuí Florestal Ltda;Grande (> 1.000 ha);9974.4;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;1;24;SR-00212;Fazenda Bela Vista;-21.218472;-52.620525;;Santa Rita do Pardo;Patrícia Fernandes Fernandes;Pequeno (≤ 100 ha);26.8;Com Pendência Cadastral;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;2;24;SR-00199;Fazenda Pequi;-21.196871;-52.634382;2.8;Santa Rita do Pardo;Nova Aurora Bioenergia Florestal Ltda;Grande (> 1.000 ha);18348.7;Com Alerta de Embargo;Área Embargada
+Equipe 16;16;Santa Rita do Pardo;3;24;SR-00715;Fazenda Paraíso;-21.209806;-52.649865;2.2;Santa Rita do Pardo;Campos Gerais Silvicultura e Participações Ltda;Grande (> 1.000 ha);4325.3;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;4;24;SR-00742;Fazenda Santa Rita;-21.138803;-52.729379;11.4;Santa Rita do Pardo;Ipê Roxo Florestal Ltda;Pequeno (≤ 100 ha);28.5;Com Pendência Cadastral;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;5;24;SR-00424;Fazenda Pontal;-21.250904;-52.798751;14.4;Santa Rita do Pardo;Pioneira Empreendimentos Florestais Ltda;Grande (> 1.000 ha);22162.4;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;6;24;SR-00246;Fazenda Varjão;-21.321499;-52.84809;9.4;Santa Rita do Pardo;Pindaíba Bioenergia Florestal Ltda;Grande (> 1.000 ha);4559.3;Com Pendência Cadastral;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;7;24;SR-00290;Fazenda Bom Jardim;-21.323677;-52.866486;1.9;Santa Rita do Pardo;Juliana Mendes Rocha;Médio (100–1.000 ha);963.8;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;8;24;SR-00115;Fazenda Retiro;-21.299509;-52.874411;2.8;Santa Rita do Pardo;Beatriz Rocha Fernandes;Médio (100–1.000 ha);910.8;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;9;24;SR-01318;Fazenda São João;-21.312092;-52.92431;5.4;Santa Rita do Pardo;Mata Nativa Empreendimentos Florestais Ltda;Grande (> 1.000 ha);1062.4;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;10;24;SR-00939;Fazenda Campina;-21.32221;-52.917398;1.3;Santa Rita do Pardo;Pedro Araújo Lima;Médio (100–1.000 ha);844.2;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;11;24;SR-00278;Fazenda Serra Azul;-21.383845;-52.866181;8.7;Santa Rita do Pardo;Ipê Roxo Bioenergia Florestal Ltda;Grande (> 1.000 ha);4874.4;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;12;24;SR-00783;Fazenda Cervo;-21.397092;-52.816961;5.3;Santa Rita do Pardo;Pindaíba Bioenergia Florestal Ltda;Grande (> 1.000 ha);4144.6;Com Pendência Cadastral;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;13;24;SR-00448;Fazenda Vale do Sucuriú;-21.362272;-52.824293;3.9;Santa Rita do Pardo;Tarumã Empreendimentos Florestais Ltda;Médio (100–1.000 ha);808.6;Com Pendência Cadastral;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;14;24;SR-00846;Fazenda Canaã II;-21.35561;-52.771491;5.5;Santa Rita do Pardo;Angico Empreendimentos Florestais Ltda;Médio (100–1.000 ha);342.9;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;15;24;SR-01321;Fazenda Boa Vista II;-21.369879;-52.757756;2.1;Santa Rita do Pardo;Bacuri Bioenergia Florestal Ltda;Médio (100–1.000 ha);938.0;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;16;24;SR-00151;Fazenda Canaã;-21.34495;-52.748042;2.9;Santa Rita do Pardo;Sete Copas Agroflorestal Ltda;Grande (> 1.000 ha);2513.2;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;17;24;SR-00570;Fazenda Três Irmãos;-21.364333;-52.73278;2.7;Santa Rita do Pardo;Rafael Costa Barros;Médio (100–1.000 ha);785.8;Com Pendência Cadastral;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;18;24;SR-00642;Fazenda Lagoa Dourada;-21.390021;-52.731548;2.9;Santa Rita do Pardo;Camila Martins Mendes;Pequeno (≤ 100 ha);12.1;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;19;24;SR-01200;Fazenda Cabeceira do Pardo;-21.443969;-52.704324;6.6;Santa Rita do Pardo;Cedro Alto Silvicultura e Participações Ltda;Grande (> 1.000 ha);9081.7;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;20;24;SR-01326;Fazenda Esperança;-21.437229;-52.723562;2.1;Santa Rita do Pardo;Tatiane Nascimento Nascimento;Médio (100–1.000 ha);623.4;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;21;24;SR-01099;Fazenda Seriema;-21.40496;-52.757825;5.0;Santa Rita do Pardo;Tarumã Bioenergia Florestal Ltda;Grande (> 1.000 ha);2480.3;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;22;24;SR-00772;Fazenda Bela Vista II;-21.457466;-52.82072;8.7;Santa Rita do Pardo;Angico Silvicultura e Participações Ltda;Médio (100–1.000 ha);431.9;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;23;24;SR-01128;Fazenda Santo Antônio;-21.490986;-52.88026;7.2;Santa Rita do Pardo;Chapadão Empreendimentos Florestais Ltda;Médio (100–1.000 ha);657.6;Regular;Nada Consta
+Equipe 16;16;Santa Rita do Pardo;24;24;SR-00140;Fazenda Boa Vista;-21.547399;-52.915575;7.3;Santa Rita do Pardo;Horizonte Reflorestadora S.A.;Grande (> 1.000 ha);4881.9;Com Pendência Cadastral;Nada Consta
+Equipe 17;17;Selvíria;1;18;SR-00344;Fazenda Ipê Amarelo;-20.605591;-51.58574;;Selvíria;Chapadão Florestal Ltda;Grande (> 1.000 ha);3610.3;Regular;Nada Consta
+Equipe 17;17;Selvíria;2;18;SR-01248;Fazenda Ouro Verde II;-20.5675;-51.572429;4.5;Selvíria;Paulo Carvalho Teixeira;Pequeno (≤ 100 ha);45.7;Com Pendência Cadastral;Nada Consta
+Equipe 17;17;Selvíria;3;18;SR-01325;Fazenda Ouro Verde III;-20.449714;-51.597414;13.4;Selvíria;Sete Copas Agropecuária e Florestal Ltda;Médio (100–1.000 ha);607.1;Regular;Nada Consta
+Equipe 17;17;Selvíria;4;18;SR-00013;Fazenda Córrego Fundo;-20.436462;-51.639161;4.6;Selvíria;Marcos Rodrigues Ribeiro;Pequeno (≤ 100 ha);31.8;Com Alerta de Embargo;Área Embargada
+Equipe 17;17;Selvíria;5;18;SR-00965;Fazenda Santa Rita II;-20.41565;-51.666339;3.7;Selvíria;Terra Roxa Florestal Ltda;Pequeno (≤ 100 ha);15.5;Regular;Nada Consta
+Equipe 17;17;Selvíria;6;18;SR-00255;Fazenda Colina II;-20.410713;-51.688497;2.4;Selvíria;Sertão Verde Reflorestadora S.A.;Médio (100–1.000 ha);973.8;Regular;Nada Consta
+Equipe 17;17;Selvíria;7;18;SR-00948;Fazenda Primavera II;-20.466974;-51.709866;6.6;Selvíria;Alvorada Agropecuária e Florestal Ltda;Grande (> 1.000 ha);23335.6;Regular;Nada Consta
+Equipe 17;17;Selvíria;8;18;SR-00908;Fazenda Estância Nova;-20.534204;-51.76507;9.4;Selvíria;Bacuri Bioenergia Florestal Ltda;Médio (100–1.000 ha);805.6;Regular;Nada Consta
+Equipe 17;17;Selvíria;9;18;SR-01164;Fazenda Monte Alegre II;-20.363236;-51.749153;19.1;Selvíria;Vinhático Empreendimentos Florestais Ltda;Grande (> 1.000 ha);3763.5;Regular;Nada Consta
+Equipe 17;17;Selvíria;10;18;SR-00553;Fazenda Água Limpa;-20.334124;-51.772764;4.1;Selvíria;Alvorada Agropecuária e Florestal Ltda;Médio (100–1.000 ha);865.9;Com Pendência Cadastral;Nada Consta
+Equipe 17;17;Selvíria;11;18;SR-01365;Fazenda Cachoeira III;-20.307822;-51.78827;3.3;Selvíria;Ipê Roxo Reflorestadora S.A.;Grande (> 1.000 ha);6984.0;Regular;Nada Consta
+Equipe 17;17;Selvíria;12;18;SR-01309;Fazenda Buriti;-20.347436;-51.712704;9.0;Selvíria;Maria Silva Alves;Pequeno (≤ 100 ha);69.6;Regular;Nada Consta
+Equipe 17;17;Selvíria;13;18;SR-00534;Fazenda Aroeira;-20.297379;-51.655254;8.2;Selvíria;Vale Azul Empreendimentos Florestais Ltda;Médio (100–1.000 ha);249.9;Regular;Nada Consta
+Equipe 17;17;Selvíria;14;18;SR-00808;Fazenda Vereda Grande;-20.255446;-51.707739;7.2;Selvíria;Rio Claro Silvicultura e Participações Ltda;Grande (> 1.000 ha);7346.9;Regular;Nada Consta
+Equipe 17;17;Selvíria;15;18;SR-00086;Fazenda Dois Rios;-20.225474;-51.647615;7.1;Selvíria;Ana Gomes Carvalho;Médio (100–1.000 ha);385.5;Regular;Nada Consta
+Equipe 17;17;Selvíria;16;18;SR-01109;Fazenda Santa Helena;-20.318202;-51.572805;12.9;Selvíria;Camila Lima Nascimento;Pequeno (≤ 100 ha);43.9;Regular;Nada Consta
+Equipe 17;17;Selvíria;17;18;SR-01066;Fazenda Sossego;-20.353246;-51.613782;5.8;Selvíria;Rodrigo Ribeiro Moura;Médio (100–1.000 ha);946.5;Regular;Nada Consta
+Equipe 17;17;Selvíria;18;18;SR-00119;Fazenda Capão Alto;-20.385482;-51.630333;4.0;Selvíria;Alvorada Reflorestadora S.A.;Grande (> 1.000 ha);4658.0;Regular;Nada Consta
+Equipe 18;18;Selvíria;1;19;SR-00845;Fazenda Primavera;-20.608273;-51.40621;;Selvíria;Baru Silvicultura e Participações Ltda;Grande (> 1.000 ha);15411.9;Regular;Nada Consta
+Equipe 18;18;Selvíria;2;19;SR-01027;Fazenda Canaã;-20.55821;-51.39275;5.7;Selvíria;Tatiane Carvalho Teixeira;Pequeno (≤ 100 ha);31.5;Regular;Nada Consta
+Equipe 18;18;Selvíria;3;19;SR-01032;Fazenda Monte Alegre;-20.43116;-51.350954;14.8;Selvíria;Baru Agroflorestal Ltda;Grande (> 1.000 ha);3611.6;Regular;Nada Consta
+Equipe 18;18;Selvíria;4;19;SR-00894;Fazenda Jatobá;-20.394116;-51.399215;6.5;Selvíria;Pioneira Florestal Ltda;Grande (> 1.000 ha);2238.3;Regular;Nada Consta
+Equipe 18;18;Selvíria;5;19;SR-00580;Fazenda Ouro Verde;-20.366346;-51.401572;3.1;Selvíria;Mata Nativa Agroflorestal Ltda;Grande (> 1.000 ha);6988.6;Regular;Nada Consta
+Equipe 18;18;Selvíria;6;19;SR-00828;Fazenda Cabeceira do Pardo;-20.377084;-51.415257;1.9;Selvíria;Mariana Monteiro Barros;Médio (100–1.000 ha);725.5;Regular;Nada Consta
+Equipe 18;18;Selvíria;7;19;SR-01196;Fazenda Córrego Fundo II;-20.408946;-51.443575;4.6;Selvíria;Cedro Alto Agropecuária e Florestal Ltda;Grande (> 1.000 ha);2046.9;Regular;Nada Consta
+Equipe 18;18;Selvíria;8;19;SR-01300;Fazenda Cachoeira II;-20.418316;-51.481342;4.1;Selvíria;Marcos Rodrigues Pinto;Médio (100–1.000 ha);970.3;Regular;Nada Consta
+Equipe 18;18;Selvíria;9;19;SR-00415;Fazenda Campina II;-20.395332;-51.530744;5.7;Selvíria;Campos Gerais Reflorestadora S.A.;Grande (> 1.000 ha);4966.7;Regular;Nada Consta
+Equipe 18;18;Selvíria;10;19;SR-01362;Fazenda Primavera III;-20.378657;-51.514407;2.5;Selvíria;Planalto Agropecuária e Florestal Ltda;Médio (100–1.000 ha);797.3;Com Pendência Cadastral;Nada Consta
+Equipe 18;18;Selvíria;11;19;SR-01127;Fazenda Três Irmãos;-20.265186;-51.490981;12.9;Selvíria;Tatiane Cardoso Fernandes;Pequeno (≤ 100 ha);72.1;Com Pendência Cadastral;Nada Consta
+Equipe 18;18;Selvíria;12;19;SR-00450;Fazenda Palmeiras;-20.248626;-51.522727;3.8;Selvíria;Sérgio Gomes Araújo;Médio (100–1.000 ha);691.1;Regular;Nada Consta
+Equipe 18;18;Selvíria;13;19;SR-00884;Fazenda Serra Azul;-20.257421;-51.571569;5.2;Selvíria;Cambuí Silvicultura e Participações Ltda;Grande (> 1.000 ha);10422.5;Regular;Nada Consta
+Equipe 18;18;Selvíria;14;19;SR-00891;Fazenda Bela Vista;-20.196364;-51.537441;7.7;Selvíria;Mariana Freitas Mendes;Médio (100–1.000 ha);878.4;Regular;Nada Consta
+Equipe 18;18;Selvíria;15;19;SR-00888;Fazenda Santo Antônio;-20.195286;-51.527653;1.0;Selvíria;Pindaíba Empreendimentos Florestais Ltda;Médio (100–1.000 ha);226.0;Regular;Nada Consta
+Equipe 18;18;Selvíria;16;19;SR-00818;Fazenda Santa Rita;-20.193332;-51.46966;6.1;Selvíria;Ipê Roxo Bioenergia Florestal Ltda;Grande (> 1.000 ha);12733.3;Regular;Nada Consta
+Equipe 18;18;Selvíria;17;19;SR-00032;Fazenda Cachoeira;-20.187836;-51.4202;5.2;Selvíria;Chapadão Reflorestadora S.A.;Grande (> 1.000 ha);2513.7;Regular;Nada Consta
+Equipe 18;18;Selvíria;18;19;SR-00675;Fazenda Barreiro;-20.266339;-51.374879;9.9;Selvíria;Vinhático Florestal Ltda;Grande (> 1.000 ha);9733.9;Regular;Nada Consta
+Equipe 18;18;Selvíria;19;19;SR-00695;Fazenda Colina III;-20.224382;-51.17;21.9;Selvíria;Fernanda Cardoso Gomes;Médio (100–1.000 ha);843.0;Com Pendência Cadastral;Nada Consta

@@ -48,7 +48,8 @@ app.py                  # Interface Streamlit: KPIs, filtros, ficha, controles d
 src/data_loader.py      # Leitura/validação de Cadastros e Metadados, tipos/nulos, coordenadas, unicidade do ID
 src/routing.py          # OSRM + fallback Haversine, cache JSON persistente, geocoding da origem
 src/map_builder.py      # Mapa Folium: marcadores, popups, legenda, camadas de rota, foco na seleção
-src/teams.py            # Base para a próxima etapa: Equipe, Atribuicao, PlanoDivisao, prioridade, estratégias
+src/teams.py            # Divisão em equipes: agrupamento por município/proximidade e sequência de visita
+scripts/                # gerar_divisao_equipes.py → data/equipes/*.csv|json
 data/                   # Planilha de entrada
 data/cache/             # Cache das rotas (rotas_tres_lagoas_fazendas.json) e do geocoding
 tests/test_core.py      # Testes (pytest) de carga/validação, OSRM simulado, fallback, cache e divisão
@@ -82,13 +83,41 @@ OSRM_BASE_URL=http://localhost:5000 streamlit run app.py
 O cache de rotas está no `.gitignore`; para compartilhar rotas já calculadas com a equipe, remova a linha
 `data/cache/*.json` do `.gitignore` e versione o arquivo.
 
-## Próxima etapa — divisão por equipes
+## Divisão em 18 equipes de fiscalização
 
-`src/teams.py` já define o modelo (`Equipe`, `Atribuicao`, `PlanoDivisao`), um score de prioridade de
-fiscalização transparente (`calcular_prioridade`, pesos em `PESOS_PRIORIDADE`) e o ponto de entrada
-`dividir_propriedades(df, equipes, origem, estrategia, rotas)`. Hoje há apenas a heurística de referência
-*setores angulares a partir da origem* (prévia no app); as estratégias por município, por prioridade de risco e
-otimização de rotas (VRP com matriz OSRM `/table`) estão marcadas como `NotImplementedError`.
+Definida em `src/teams.py` (`DIVISAO_18_EQUIPES`) e aplicada automaticamente no app:
+
+| Equipes | Município | Propriedades por equipe |
+|---|---|---|
+| 01–05 | Três Lagoas (89) | 18 · 18 · 18 · 18 · 17 |
+| 06 | Bataguassu (13) | 13 |
+| 07–09 | Brasilândia (60) | 20 · 20 · 20 |
+| 10–11 | Inocência (31) | 16 · 15 |
+| 12–15 | Ribas do Rio Pardo (81) | 21 · 20 · 20 · 20 |
+| 16 | Santa Rita do Pardo (24) | 24 |
+| 17–18 | Selvíria (37) | 19 · 18 |
+
+> **Água Clara (76 propriedades) não está incluída na divisão** e aparece como "Sem equipe".
+
+Como a divisão é feita:
+- **Agrupamento por localização** nos municípios com mais de uma equipe: k-means com capacidade exata
+  (cada grupo recebe exatamente o nº de propriedades definido), refinado por trocas de propriedades entre
+  equipes até não haver troca que deixe os grupos mais compactos; 40 inícios diferentes, fica o melhor.
+  O resultado é determinístico (semente fixa).
+- **Numeração**: começa em Três Lagoas e segue a ordem dos municípios acima; dentro do município, da equipe
+  mais próxima para a mais distante do centro de Três Lagoas.
+- **Sequência de visita**: começa pela propriedade da equipe mais próxima de Três Lagoas e segue sempre para
+  a vizinha mais próxima, com melhoria 2-opt (elimina cruzamentos). Distâncias em linha reta.
+
+No app: filtro **Equipe**, cores **por equipe**, linha e numeração da **sequência de visita** no mapa,
+equipe/ordem na ficha e na tabela, resumo por equipe e downloads (CSV completo, resumo, JSON).
+Os arquivos também ficam versionados em `data/equipes/` e podem ser regenerados com:
+
+```bash
+python scripts/gerar_divisao_equipes.py
+```
+
+Para mudar a divisão (ex.: incluir Água Clara), edite `DIVISAO_18_EQUIPES` e rode o script.
 
 ---
 Rotas © OpenStreetMap contributors · OSRM. Mapa base © OpenStreetMap / Esri / CARTO.

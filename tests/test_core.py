@@ -96,8 +96,38 @@ def test_cache_only_nao_consulta(tmp_path: Path):
 
 
 def test_divisao_equipes(ds):
-    plano = dividir_propriedades(ds.cadastros, criar_equipes(4, ORIGEM_PADRAO), ORIGEM_PADRAO)
+    plano = dividir_propriedades(ds.cadastros, criar_equipes(4, ORIGEM_PADRAO), ORIGEM_PADRAO, Estrategia.SETOR_ANGULAR)
     ids = [i for a in plano.atribuicoes for i in a.ids_silviradar]
     assert sorted(ids) == sorted(ds.cadastros[COL_ID]) and len(plano.atribuicoes) == 4
     with pytest.raises(NotImplementedError):
         dividir_propriedades(ds.cadastros, criar_equipes(2, ORIGEM_PADRAO), ORIGEM_PADRAO, Estrategia.MUNICIPIO)
+
+
+def test_divisao_18_equipes(ds):
+    from src.teams import DIVISAO_18_EQUIPES, dividir_por_municipio
+
+    plano = dividir_por_municipio(ds.cadastros, ORIGEM_PADRAO)
+    assert [e.numero for e in plano.equipes] == list(range(1, 19))
+    # Três Lagoas = equipes 1–5 e demais municípios na ordem da configuração
+    esperado = [m for m, tams in DIVISAO_18_EQUIPES for _ in tams]
+    assert [a.municipio for a in plano.atribuicoes] == esperado
+    for municipio, tams in DIVISAO_18_EQUIPES:
+        obtidos = sorted(len(a.ordem_visita) for a in plano.atribuicoes if a.municipio == municipio)
+        assert obtidos == sorted(tams), municipio
+    todos = [i for a in plano.atribuicoes for i in a.ordem_visita]
+    assert len(todos) == len(set(todos)) == 335
+    mun = ds.cadastros.set_index(COL_ID)["Município"]
+    for a in plano.atribuicoes:
+        assert set(mun[a.ordem_visita]) == {a.municipio}
+    # Água Clara não está na divisão informada
+    assert not (set(ds.cadastros[ds.cadastros["Município"] == "Água Clara"][COL_ID]) & set(todos))
+
+
+def test_agrupamento_separa_clusters_obvios():
+    from src.teams import agrupar_com_tamanhos, sequenciar
+
+    pts = [(0, i) for i in range(5)] + [(100, i) for i in range(5)]
+    lab = agrupar_com_tamanhos(pts, [5, 5])
+    assert len(set(lab[:5])) == 1 and len(set(lab[5:])) == 1 and lab[0] != lab[5]
+    seq = sequenciar([(0, 4), (0, 0), (0, 2), (0, 1), (0, 3)], inicio=(0, -10))
+    assert seq == [1, 3, 2, 4, 0]

@@ -21,12 +21,12 @@ from src.data_loader import (
     COL_EMBARGO, COL_ID, COL_LAT, COL_LON, COL_MUN, COL_NOME, COL_PORTE, COL_SITUACAO,
     DEFAULT_XLSX, Dataset, field_groups_for, load_dataset,
 )
-from src.map_builder import SITUACAO_CORES, TILES, build_map, id_from_tooltip
+from src.map_builder import SITUACAO_CORES, TILES, build_map, cor_equipe, id_from_tooltip
 from src.routing import (
     METODO_FALLBACK, METODO_OSRM, ORIGEM_PADRAO, TRES_LAGOAS_CENTRO, Origem, RouteCache, RouteParams,
     compute_routes, format_duration, geocode, haversine_km, route_coords,
 )
-from src.teams import Estrategia, calcular_prioridade, criar_equipes, dividir_propriedades
+from src.teams import SEM_EQUIPE, PlanoDivisao, calcular_prioridade, dividir_por_municipio, tabela_equipes
 
 st.set_page_config(page_title="Força Tarefa · Silvicultura MS", page_icon="🌲", layout="wide")
 
@@ -67,6 +67,13 @@ def geocode_tres_lagoas() -> tuple[float, float] | None:
     return geocode("Três Lagoas, Mato Grosso do Sul, Brasil")
 
 
+@st.cache_data(show_spinner="Dividindo propriedades entre as equipes…")
+def plano_equipes(df: pd.DataFrame) -> tuple[PlanoDivisao, pd.DataFrame]:
+    """Divisão oficial em 18 equipes (fixa, referenciada ao centro de Três Lagoas - MS)."""
+    plano = dividir_por_municipio(df, ORIGEM_PADRAO)
+    return plano, tabela_equipes(plano, df)
+
+
 def selecionar(fid: str | None) -> None:
     """Agenda a seleção de uma fazenda (aplicada antes de desenhar o seletor)."""
     st.session_state["_pendente"] = fid
@@ -91,6 +98,19 @@ validos = base[base["coord_valida"]].copy()
 todos_ids = base[COL_ID].tolist()
 por_id = base.set_index(COL_ID, drop=False)
 cache = route_cache()
+
+try:
+    plano, tab_eq = plano_equipes(validos)
+except ValueError as exc:  # planilha diferente da prevista na divisão
+    st.sidebar.error(f"Divisão de equipes não aplicada: {exc}")
+    plano, tab_eq = None, pd.DataFrame(columns=[COL_ID, "Equipe", "Nº Equipe", "Ordem de Visita",
+                                                "Total da Equipe", "Município da Equipe"])
+equipe_de = {
+    r[COL_ID]: {"numero": int(r["Nº Equipe"]), "nome": r["Equipe"], "ordem": int(r["Ordem de Visita"]),
+                "total": int(r["Total da Equipe"]), "municipio": r["Município da Equipe"]}
+    for _, r in tab_eq.iterrows()
+}
+nomes_equipes = sorted(tab_eq["Equipe"].unique().tolist())
 
 # =============================================================================
 # Sidebar — origem, filtros e parâmetros
@@ -145,6 +165,7 @@ with st.sidebar:
 
     st.subheader("🔎 Filtros")
     busca = st.text_input("Busca (ID, fazenda, produtor, CPF/CNPJ, CAR)")
+    f_eq = st.multiselect("Equipe", nomes_equipes + [SEM_EQUIPE], placeholder="Todas")
 
     def ms(label, col, default=None):
         opts = sorted(base[col].dropna().unique().tolist())
@@ -172,6 +193,12 @@ with st.sidebar:
 
     st.subheader("🗺️ Mapa")
     tiles = st.selectbox("Mapa base", list(TILES))
+    cor_por = st.radio("Colorir fazendas por", ["Situação IBAMA", "Equipe"], horizontal=True)
+    seq_modo = st.selectbox("Sequência de visita das equipes",
+                            ["Equipes filtradas", "Somente a equipe da fazenda selecionada", "Não mostrar"],
+                            help="Linha ligando as propriedades na ordem de visita de cada equipe.")
+    seq_rotulos = st.checkbox("Numerar a ordem de visita no mapa", value=True,
+                              help="Rótulos aparecem quando até 3 equipes estão na tela.")
 
 # =============================================================================
 # Aplicação dos filtros
@@ -184,6 +211,8 @@ df["_dist_ref"] = [
     for i, la_, lo_ in zip(df[COL_ID], df[COL_LAT], df[COL_LON])
 ]
 df["_metodo"] = df[COL_ID].map(lambda i: rotas[i]["metodo"] if i in rotas else None)
+df["Equipe"] = df[COL_ID].map(lambda i: equipe_de[i]["nome"] if i in equipe_de else SEM_EQUIPE)
+df["Ordem de Visita"] = df[COL_ID].map(lambda i: equipe_de[i]["ordem"] if i in equipe_de else None).astype("Int64")
 
 if busca:
     q = busca.strip().lower()
@@ -192,7 +221,7 @@ if busca:
     for c in cols_busca:
         mask |= df[c].astype(str).str.lower().str.contains(q, regex=False, na=False)
     df = df[mask]
-for col, sel in [(COL_MUN, f_mun), (COL_SITUACAO, f_sit), (COL_EMBARGO, f_emb), (COL_PORTE, f_porte),
+for col, sel in [("Equipe", f_eq), (COL_MUN, f_mun), (COL_SITUACAO, f_sit), (COL_EMBARGO, f_emb), (COL_PORTE, f_porte),
                  ("Finalidade Principal", f_fin), ("Certificação Florestal", f_cert), ("Espécie Cultivada", f_esp),
                  ("Certificado de Regularidade (CR)", f_cr), ("Situação Cadastral CTF", f_ctf),
                  ("Situação CAR", f_car), ("Licenciamento Ambiental Estadual", f_lic),
@@ -356,9 +385,23 @@ with col_mapa:
     plot = df
     if selected_id and selected_id not in filtrados_ids and bool(por_id.at[selected_id, "coord_valida"]):
         plot = pd.concat([df, validos[validos[COL_ID] == selected_id]])
-    mapa = build_map(plot, origem, rotas, rotas_visiveis, selected_id, tiles=tiles, max_points_por_rota=pts_rota)
+    # Sequências de visita a desenhar
+    if seq_modo == "Equipes filtradas":
+        eqs_seq = sorted({equipe_de[i]["nome"] for i in filtrados_ids if i in equipe_de})
+    elif seq_modo.startswith("Somente") and selected_id in equipe_de:
+        eqs_seq = [equipe_de[selected_id]["nome"]]
+    else:
+        eqs_seq = []
+    sequencias = []
+    for nome in eqs_seq:
+        t_ = tab_eq[tab_eq["Equipe"] == nome].sort_values("Ordem de Visita")
+        sequencias.append({"numero": int(t_["Nº Equipe"].iloc[0]), "nome": nome,
+                           "coords": list(zip(t_[COL_LAT], t_[COL_LON])),
+                           "rotulos": seq_rotulos and len(eqs_seq) <= 3})
+    mapa = build_map(plot, origem, rotas, rotas_visiveis, selected_id, tiles=tiles, max_points_por_rota=pts_rota,
+                     equipes=equipe_de, cor_por_equipe=(cor_por == "Equipe"), sequencias=sequencias)
     assinatura = hashlib.md5(json.dumps([selected_id, origem.key, filtrados_ids, rotas_visiveis, tiles,
-                                         pts_rota, len(rotas)]).encode()).hexdigest()[:12]
+                                         pts_rota, len(rotas), cor_por, eqs_seq, seq_rotulos]).encode()).hexdigest()[:12]
     map_key = f"mapa_{assinatura}"
     out = st_folium(mapa, key=map_key, height=680, use_container_width=True,
                     returned_objects=["last_object_clicked_tooltip"])
@@ -390,7 +433,11 @@ with col_ficha:
             f"<span class='badge' style='background:{cor}'>{r[COL_SITUACAO]}</span>"
             f"<span class='badge' style='background:{'#000' if emb else '#78909C'}'>"
             f"{'⚠ ' if emb else ''}{r[COL_EMBARGO]}</span>"
-            f"<span class='badge' style='background:#6D4C41'>Prioridade {calcular_prioridade(r)}</span>",
+            f"<span class='badge' style='background:#6D4C41'>Prioridade {calcular_prioridade(r)}</span>"
+            + (f"<span class='badge' style='background:{cor_equipe(equipe_de[selected_id]['numero'])}'>"
+               f"{equipe_de[selected_id]['nome']} · visita {equipe_de[selected_id]['ordem']}/"
+               f"{equipe_de[selected_id]['total']}</span>" if selected_id in equipe_de else
+               f"<span class='badge' style='background:#9E9E9E'>{SEM_EQUIPE}</span>"),
             unsafe_allow_html=True)
         st.caption(f"{r['Produtor / Detentor']} · {r[COL_MUN]}/MS")
 
@@ -441,14 +488,19 @@ with col_ficha:
 # =============================================================================
 
 st.subheader("📋 Resumo ponto a ponto")
-tab = df[[COL_ID, COL_NOME, COL_MUN, COL_PORTE, COL_SITUACAO, COL_EMBARGO, "Prioridade", COL_LAT, COL_LON]].copy()
+tab = df[[COL_ID, COL_NOME, COL_MUN, COL_PORTE, COL_SITUACAO, COL_EMBARGO, "Prioridade", "Equipe",
+          "Ordem de Visita", COL_LAT, COL_LON]].copy()
 tab["Distância (km)"] = tab[COL_ID].map(lambda i: round(rotas[i]["distancia_km"], 1) if i in rotas else None)
 tab["Tempo Estimado"] = tab[COL_ID].map(lambda i: format_duration(rotas[i]["duracao_s"]) if i in rotas else "—")
 tab["Método da Rota"] = tab[COL_ID].map(lambda i: rotas[i]["metodo"] if i in rotas else "Não calculada")
-tab = tab.sort_values(["Distância (km)", COL_ID], na_position="last").reset_index(drop=True)
+ordenar = st.radio("Ordenar tabela por", ["Equipe e ordem de visita", "Distância da origem"], horizontal=True)
+if ordenar.startswith("Equipe"):
+    tab = tab.sort_values(["Equipe", "Ordem de Visita", COL_ID], na_position="last").reset_index(drop=True)
+else:
+    tab = tab.sort_values(["Distância (km)", COL_ID], na_position="last").reset_index(drop=True)
 
-ordem_cols = [COL_ID, COL_NOME, COL_MUN, COL_PORTE, COL_SITUACAO, "Distância (km)", "Tempo Estimado",
-              "Método da Rota", COL_EMBARGO, "Prioridade"]
+ordem_cols = [COL_ID, COL_NOME, COL_MUN, "Equipe", "Ordem de Visita", COL_PORTE, COL_SITUACAO, "Distância (km)",
+              "Tempo Estimado", "Método da Rota", COL_EMBARGO, "Prioridade"]
 evento = st.dataframe(
     tab[ordem_cols], hide_index=True, width="stretch", height=360,
     on_select="rerun", selection_mode="single-row", key="tabela",
@@ -502,29 +554,54 @@ e4.download_button("⬇ Cache de rotas (JSON)",
                    "rotas_tres_lagoas_fazendas.json", "application/json", width="stretch")
 
 # =============================================================================
-# Próxima etapa: divisão por equipes (prévia)
+# Divisão em equipes
 # =============================================================================
 
-with st.expander("👥 Próxima etapa — divisão por equipes de fiscalização (prévia experimental)"):
-    st.caption("Estrutura de dados pronta em `src/teams.py`. A heurística abaixo apenas fatia as fazendas "
-               "filtradas por setores angulares a partir da origem; as estratégias definitivas virão na próxima etapa.")
-    t1, t2 = st.columns([1, 3])
-    n_eq = t1.number_input("Nº de equipes", 1, 20, 4)
-    estr = t1.selectbox("Estratégia", [e.value for e in Estrategia])
-    try:
-        plano = dividir_propriedades(df, criar_equipes(int(n_eq), origem), origem, Estrategia(estr), rotas)
-        resumo = pd.DataFrame([{
-            "Equipe": a.equipe_id, "Propriedades": len(a.ids_silviradar),
-            "Soma das rotas ida (km)": a.distancia_total_km,
-            "Dias estimados": a.dias_estimados,
-            "Embargadas": int(df[df[COL_ID].isin(a.ids_silviradar)][COL_EMBARGO].eq("Área Embargada").sum()),
-            "Municípios": ", ".join(sorted(df[df[COL_ID].isin(a.ids_silviradar)][COL_MUN].unique())),
-        } for a in plano.atribuicoes])
-        t2.dataframe(resumo, hide_index=True, width="stretch")
-        t2.download_button("⬇ Plano (JSON)", plano.to_json().encode("utf-8"), "plano_equipes_previa.json",
-                           "application/json")
-    except NotImplementedError as exc:
-        t2.info(str(exc))
+st.subheader("👥 Divisão em equipes de fiscalização")
+if plano is None:
+    st.info("A divisão em equipes não pôde ser aplicada a esta planilha (veja o aviso na barra lateral).")
+else:
+    st.caption(plano.observacoes + " O percurso é a soma das distâncias em linha reta entre propriedades "
+               "consecutivas (referência para planejamento; a distância rodoviária será maior).")
+    resumo = []
+    for eq, a in zip(plano.equipes, plano.atribuicoes):
+        sub = base[base[COL_ID].isin(a.ordem_visita)]
+        resumo.append({
+            "Nº": eq.numero, "Equipe": eq.nome, "Município": a.municipio, "Propriedades": len(a.ordem_visita),
+            "Área plantada (ha)": round(float(sub["Área Efetiva Plantada (ha)"].sum()), 1),
+            "Embargadas": int((sub[COL_EMBARGO] == "Área Embargada").sum()),
+            "Pendência / alerta": int((sub[COL_SITUACAO] != "Regular").sum()),
+            "Origem → 1ª visita (km, reta)": a.origem_ate_primeira_km,
+            "Percurso entre fazendas (km, reta)": a.percurso_km,
+            "1ª visita": a.ordem_visita[0], "Última visita": a.ordem_visita[-1],
+        })
+    resumo_df = pd.DataFrame(resumo)
+    sem = base[~base[COL_ID].isin(equipe_de)]
+    st.dataframe(resumo_df, hide_index=True, width="stretch",
+                 column_config={"Nº": st.column_config.NumberColumn(width="small")})
+    if len(sem):
+        st.warning(f"**{len(sem)} propriedades sem equipe** — município(s) não incluído(s) na divisão: "
+                   f"{', '.join(sorted(sem[COL_MUN].unique()))}.")
+
+    d1, d2 = st.columns([1, 2])
+    eq_det = d1.selectbox("Sequência de visita da equipe", resumo_df["Equipe"].tolist())
+    seq_df = tab_eq[tab_eq["Equipe"] == eq_det].merge(
+        base[[COL_ID, COL_PORTE, COL_SITUACAO, COL_EMBARGO]], on=COL_ID, how="left")
+    d1.metric("Propriedades", len(seq_df))
+    d1.metric("Percurso entre fazendas (km, reta)", fmt_br(seq_df["Dist. da anterior (km, linha reta)"].sum(), 1))
+    d2.dataframe(seq_df[["Ordem de Visita", COL_ID, "Propriedade / Fazenda", COL_PORTE, COL_SITUACAO,
+                         COL_EMBARGO, "Dist. da anterior (km, linha reta)"]],
+                 hide_index=True, width="stretch", height=320)
+
+    detalhado = tab_eq.merge(base.drop(columns=["coord_valida", "Propriedade / Fazenda", COL_LAT, COL_LON]),
+                             on=COL_ID, how="left")
+    q1, q2, q3 = st.columns(3)
+    q1.download_button("⬇ Divisão completa (CSV)", detalhado.to_csv(index=False, sep=";").encode("utf-8-sig"),
+                       "divisao_18_equipes.csv", "text/csv", width="stretch")
+    q2.download_button("⬇ Resumo por equipe (CSV)", resumo_df.to_csv(index=False, sep=";").encode("utf-8-sig"),
+                       "resumo_equipes.csv", "text/csv", width="stretch")
+    q3.download_button("⬇ Plano (JSON)", plano.to_json().encode("utf-8"), "plano_18_equipes.json",
+                       "application/json", width="stretch")
 
 st.caption("Rotas: © OpenStreetMap contributors · OSRM (project-osrm.org). Mapa base: OSM / Esri / CARTO. "
            "Base cadastral sintética de referência — não utilizar para decisões sem consulta às fontes oficiais.")
