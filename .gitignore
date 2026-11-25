@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.streamlit/secrets.toml
+.DS_Store
+# Cache de rotas: versionar opcionalmente (remova a linha abaixo para compartilhar o cache com a equipe)
+data/cache/*.json
+data/cache/*.tmp
+!data/cache/.gitkeep
